@@ -39,7 +39,13 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+.message {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .message-body {
   padding: 0;
   width: fit-content;
