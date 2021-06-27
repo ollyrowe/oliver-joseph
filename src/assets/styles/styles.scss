@@ -1,0 +1,128 @@
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+
+// Import custom variables
+@import "./variables.scss";
+
+// Setup colours
+$colors: (
+  "white": (
+    $white,
+    $black
+  ),
+  "black": (
+    $black,
+    $white
+  ),
+  "grey-darkest": (
+    $grey-darkest,
+    $grey-darkest-invert
+  ),
+  "grey-darker": (
+    $grey-darker,
+    $grey-darker-invert
+  ),
+  "grey-dark": (
+    $grey-dark,
+    $grey-dark-invert
+  ),
+  "grey-light": (
+    $grey-light,
+    $grey-light-invert
+  ),
+  "grey-lighter": (
+    $grey-lighter,
+    $grey-lighter-invert
+  ),
+  "grey-lightest": (
+    $grey-lightest,
+    $grey-lightest-invert
+  ),
+  "light": (
+    $light,
+    $light-invert
+  ),
+  "dark": (
+    $dark,
+    $dark-invert
+  ),
+  "primary": (
+    $primary,
+    $primary-invert,
+    $primary-light,
+    $primary-dark
+  ),
+  "link": (
+    $link,
+    $link-invert,
+    $link-light,
+    $link-dark
+  ),
+  "info": (
+    $info,
+    $info-invert,
+    $info-light,
+    $info-dark
+  ),
+  "success": (
+    $success,
+    $success-invert,
+    $success-light,
+    $success-dark
+  ),
+  "warning": (
+    $warning,
+    $warning-invert,
+    $warning-light,
+    $warning-dark
+  ),
+  "danger": (
+    $danger,
+    $danger-invert,
+    $danger-light,
+    $danger-dark
+  )
+);
+
+// Remove default shades
+$shades: ();
+
+// Links
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+
+// Tabs
+$tabs-link-color: white;
+
+$tabs-toggle-link-active-background-color: $grey-light;
+
+$tabs-link-hover-color: white;
+$tabs-toggle-link-hover-background-color: $grey-light;
+$tabs-toggle-link-active-border-color: $grey-darkest;
+
+$tabs-toggle-link-border-width: 0;
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+// Custom Helpers
+@media screen and (max-width: calc(#{$tablet} - 1px)) {
+  .is-marginless-mobile {
+    margin: 0 !important;
+  }
+
+  .is-paddingless-mobile {
+    padding: 0 !important;
+  }
+
+  .is-flex-direction-column-mobile {
+    flex-direction: column !important;
+  }
+
+  .is-fullwidth-mobile {
+    width: 100% !important;
+    flex: 0 auto !important;
+  }
+}

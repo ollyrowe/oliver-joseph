@@ -1,0 +1,24 @@
+// Set colours
+$primary: #141414;
+$primary-light: findLightColor($primary);
+$primary-dark: findDarkColor($primary);
+$primary-invert: findColorInvert($primary);
+
+// Greys
+$grey-darkest: $primary;
+$grey-darkest-invert: findColorInvert($grey-darkest);
+
+$grey-darker: #212121;
+$grey-darker-invert: findColorInvert($grey-darker);
+
+$grey-dark: #363636;
+$grey-dark-invert: findColorInvert($grey-dark);
+
+$grey-light: #a2a2a2;
+$grey-light-invert: findColorInvert($grey-light);
+
+$grey-lighter: #e1e1e1;
+$grey-lighter-invert: findColorInvert($grey-lighter);
+
+$grey-lightest: #efefef;
+$grey-lightest-invert: findColorInvert($grey-lightest);
