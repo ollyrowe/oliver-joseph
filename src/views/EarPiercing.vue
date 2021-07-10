@@ -3,20 +3,16 @@
     <Carousel :images="images" />
     <div class="px-5 pb-4">
       <div class="px-5 pb-4 is-paddingless-mobile">
-        <div class="title is-size-4 my-4">Beauty</div>
-        <b-message type="is-grey-dark">
-          We offer a wide range of beauty and holistic treatments. Please call
-          the salon for further details.
-        </b-message>
+        <div class="title is-size-4 my-4">Ear Piercing</div>
         <Table
-          title="Ear Piercing"
+          title="Our Services"
           :columns="earPiercingColumns"
           :data="earPiercingData"
           :showColumns="false"
         />
         <InfoMessage>
           The system we use is fully endorsed by the British Council. The
-          earrings are sterilised and anti-allergic for your protection, which
+          earrings are sterilised and anti-allergenic for your protection, which
           ensures trouble free enjoyment of your newly pierced ears. The price
           includes the piercing, a choice of earring and an after-care cleansing
           lotion to take home.
@@ -32,7 +28,7 @@ import Table from "@/components/data/Table.vue";
 import InfoMessage from "@/components/data/InfoMessage.vue";
 
 export default {
-  name: "Beauty",
+  name: "EarPiercing",
   components: {
     Carousel,
     Table,
@@ -49,15 +45,6 @@ export default {
         },
         {
           filename: "beauty/beauty-image3.jpg"
-        },
-        {
-          filename: "beauty/beauty-image4.jpg"
-        },
-        {
-          filename: "beauty/beauty-image5.jpg"
-        },
-        {
-          filename: "beauty/beauty-image6.jpg"
         }
       ],
       earPiercingColumns: [
@@ -70,7 +57,7 @@ export default {
       ],
       earPiercingData: [
         {
-          service: "Standard Ear Piercing",
+          service: "Ear Piercing (Ear-lobe)",
           price: "£32"
         }
       ]

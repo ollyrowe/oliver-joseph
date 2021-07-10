@@ -3,9 +3,8 @@ import VueRouter from "vue-router";
 // Import views
 import Home from "../views/Home.vue";
 import Hair from "../views/Hair.vue";
-import Beauty from "../views/Beauty.vue";
+import EarPiercing from "../views/EarPiercing.vue";
 import Wedding from "../views/Wedding.vue";
-import CareersAndVacancies from "../views/CareersAndVacancies.vue";
 import ContactUs from "../views/ContactUs.vue";
 
 Vue.use(VueRouter);
@@ -22,19 +21,14 @@ export const routes = [
     component: Hair
   },
   {
-    path: "/beauty",
-    name: "Beauty",
-    component: Beauty
+    path: "/earPiercing",
+    name: "Ear Piercing",
+    component: EarPiercing
   },
   {
     path: "/wedding",
     name: "Wedding",
     component: Wedding
-  },
-  {
-    path: "/careers-and-vacancies",
-    name: "Careers & Vacancies",
-    component: CareersAndVacancies
   },
   {
     path: "/contact-us",
