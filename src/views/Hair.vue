@@ -11,7 +11,8 @@
         />
         <Table title="Colour" :columns="columns.colour" :data="prices.colour" />
         <InfoMessage class="mb-5">
-          A skin test is required 48 hours prior to all colour treatments
+          A skin test is required 48 hours prior to all colour treatments listed
+          above
         </InfoMessage>
         <Table
           title="High Lighting & Low Lighting"
@@ -68,16 +69,6 @@ export default {
             field: "seniorStylist",
             label: "Senior Stylist",
             centered: true
-          },
-          {
-            field: "stylist",
-            label: "Stylist",
-            centered: true
-          },
-          {
-            field: "graduateStylist",
-            label: "Graduate Stylist",
-            centered: true
           }
         ],
         colour: [
@@ -93,11 +84,6 @@ export default {
             field: "technician",
             label: "Technician",
             centered: true
-          },
-          {
-            field: "graduateTechnician",
-            label: "Graduate Technician",
-            centered: true
           }
         ],
         highLightingLowLighting: [
@@ -112,11 +98,6 @@ export default {
           {
             field: "technician",
             label: "Technician",
-            centered: true
-          },
-          {
-            field: "graduateTechnician",
-            label: "Graduate Technician",
             centered: true
           }
         ],
@@ -134,23 +115,22 @@ export default {
           {
             service: "Cut and Blow Dry",
             seniorDirector: "£40",
-            seniorStylist: "£35",
-            stylist: "£30",
-            graduateStylist: "£26"
+            seniorStylist: "£35"
+          },
+          {
+            service: "Re-style",
+            seniorDirector: "£42",
+            seniorStylist: "£37"
           },
           {
             service: "Men's Cut and Blow Dry",
             seniorDirector: "£20",
-            seniorStylist: "£17",
-            stylist: "£16",
-            graduateStylist: "£15"
+            seniorStylist: "£17"
           },
           {
             service: "Blow Dry",
             seniorDirector: "from £22",
-            seniorStylist: "£20",
-            stylist: "£18",
-            graduateStylist: "£15"
+            seniorStylist: "£20"
           },
           {
             service: "Children",
@@ -161,20 +141,17 @@ export default {
           {
             service: "Semi Glossing",
             techDirector: "£38",
-            technician: "£33",
-            graduateTechnician: "£27"
+            technician: "£33"
           },
           {
             service: "Tint Regrowth",
             techDirector: "£38",
-            technician: "£33",
-            graduateTechnician: "£27"
+            technician: "£33"
           },
           {
             service: "Full Head Colour",
             techDirector: "£40",
-            technician: "£35",
-            graduateTechnician: "£29"
+            technician: "£35"
           },
           {
             service: "Balayage / Ombré",
@@ -193,20 +170,17 @@ export default {
           {
             service: "T Section (1/4 Head)",
             techDirector: "£40",
-            technician: "£35",
-            graduateTechnician: "£29"
+            technician: "£35"
           },
           {
             service: "Half Head Foils",
             techDirector: "from £50",
-            technician: "from £45",
-            graduateTechnician: "from £39"
+            technician: "from £45"
           },
           {
             service: "Full Head Foils",
             techDirector: "from £66",
-            technician: "from £60",
-            graduateTechnician: "from £52"
+            technician: "from £60"
           }
         ],
         otherServices: [
