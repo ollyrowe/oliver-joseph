@@ -1,0 +1,31 @@
+name: Deploy
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install & Build Application
+        run: |
+          npm install
+          npm run build
+
+      - name: Configure Custom Domain & 404 Fallback File
+        run: |
+          cd dist
+          echo 'www.oliverjosephhairdressing.co.uk' > CNAME
+          cp index.html 404.html
+          cd ../
+
+      - name: "Deploy to GitHub Pages"
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: dist
