@@ -39,7 +39,7 @@
               <i class="mdi mdi-email mdi-48px" />
             </template>
             <template v-slot:content>
-              <a href="mailto:oliverjosephmsn@aol.com">
+              <a href="mailto:oliverjosephmsn@aol.com?subject=Website Enquiry">
                 <button
                   class="button is-ghost is-shadowless subtitle is-size-6"
                 >

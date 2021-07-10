@@ -13,7 +13,10 @@
         <b-icon icon="phone" size="is-small" class="menu-icon" />
         <span>Phone</span>
       </a>
-      <a href="mailto:oliverjosephmsn@aol.com" class="menu-button">
+      <a
+        href="mailto:oliverjosephmsn@aol.com?subject=Website Enquiry"
+        class="menu-button"
+      >
         <b-icon icon="email" size="is-small" class="menu-icon" />
         <span>Email</span>
       </a>
