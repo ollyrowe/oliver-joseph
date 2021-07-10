@@ -13,18 +13,14 @@
           </p>
           <br />
           <p>
-            We use only the very best salon- professional products; Tigi,
+            We use only the very best salon-professional products; Tigi,
             Moroccan oil, and Color Wow. These products are available to
-            purchase, for you to maintain the professional finish which was
-            created for you.
+            purchase from us, for you to maintain a professional finish at home.
           </p>
         </b-message>
       </div>
       <div class="column">
         <OpeningTimes />
-        <InfoMessage>
-          Reopening Monday 12th April
-        </InfoMessage>
       </div>
       <div class="column">
         <b-message
@@ -34,17 +30,18 @@
         >
           <p>
             To help with social distancing, please phone / text us if you would
-            like to make a hair appointment - please don't visit us in person.
+            like to make a hair appointment - please do not visit us in person.
           </p>
           <br />
           <p>
-            Leave a message on the salon answer machine: 01761 416999 or text us
-            on: 07936142317. We will return your call / message within 24 hours.
+            Please leave a message on the salon answer machine: 01761 416999 or
+            text us on: 07936142317. We will return your call / message within
+            24 hours.
           </p>
           <br />
           <p>
-            New clients or those booking longer services will require a 50%
-            deposit payable prior to the appointment.
+            New clients, or those who are booking longer services, will require
+            a 50% deposit payable prior to the appointment.
           </p>
           <br />
           <p>
@@ -117,14 +114,12 @@
 <script>
 import Carousel from "@/components/data/Carousel.vue";
 import OpeningTimes from "@/components/data/OpeningTimes.vue";
-import InfoMessage from "@/components/data/InfoMessage.vue";
 
 export default {
   name: "Home",
   components: {
     Carousel,
-    OpeningTimes,
-    InfoMessage
+    OpeningTimes
   },
   data() {
     return {
