@@ -5,14 +5,10 @@
       <div
         class="px-5 pb-4 is-flex is-flex-direction-column is-paddingless-mobile"
       >
-        <div class="title is-size-4 my-4">Wedding Hair & Beauty</div>
+        <div class="title is-size-4 my-4">Wedding Hair</div>
         <b-message type="is-grey-dark">
-          We have a number of hair up specialists that can help create the
-          perfect style for your wedding day.
-        </b-message>
-        <b-message type="is-grey-dark">
-          For a glamorous blow dry or a beautiful up do, our stylists have the
-          expert knowledge to create something that is perfect for you.
+          For a glamorous blow dry or a beautiful up do, we endeavour to create
+          something that is perfect for you.
         </b-message>
         <div class="rows mb-4 mx-4 is-marginless-mobile">
           <div class="row is-flex my-4 is-align-items-center">
@@ -45,25 +41,13 @@
           <div class="row is-flex my-4 is-align-items-center">
             <div class="is-flex">
               <div class="arrow p-1 px-2 is-size-6 has-background-grey-darker">
-                COMPETITIVE PACKAGES
-              </div>
-              <div class="arrow-right is-hidden-mobile" />
-            </div>
-            <div class="subtitle is-size-6 ml-5 pl-5 is-paddingless-mobile">
-              <b>Competitive packages to fit your budget</b>
-              and prepare you for your day, we can also accommodate your guests.
-            </div>
-          </div>
-          <div class="row is-flex my-4 is-align-items-center">
-            <div class="is-flex">
-              <div class="arrow p-1 px-2 is-size-6 has-background-grey-darker">
                 FREE CONSULTATION
               </div>
               <div class="arrow-right is-hidden-mobile" />
             </div>
             <div class="subtitle is-size-6 ml-5 pl-5 is-paddingless-mobile">
-              Call us now on <b>01761 416999</b> to organise your <b>FREE</b> no
-              obligation consultation.
+              Call us now on <b>01761 416999</b> to arrange your <b>FREE</b>,
+              no-obligation consultation.
             </div>
           </div>
         </div>
@@ -83,17 +67,11 @@
             alt="Oliver Joseph Weddings"
           />
         </div>
-        <div class="columns">
-          <span class="column has-text-right pr-3 has-text-centered-mobile"
-            >Flowers by
+        <div>
+          <span class="column pr-3 has-text-centered">
+            Flowers by
             <a href="http://www.sweetpeafloraldesign.co.uk/" class="is-ghost">
               Sweet Pea Floral Design
-            </a>
-          </span>
-          <span class="column has-text-left pl-3 has-text-centered-mobile">
-            Wedding dress by
-            <a href="http://www.solitairebrides.co.uk/" class="is-ghost">
-              Solitaire Brides
             </a>
           </span>
         </div>
