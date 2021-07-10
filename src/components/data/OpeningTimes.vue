@@ -19,7 +19,7 @@
         </div>
         <div class="has-text-right is-flex-grow-1">
           <strong>
-            8am - 6pm<br />
+            Closed<br />
             8am - 6pm<br />
             8am - 6pm<br />
             8am - 6pm<br />
