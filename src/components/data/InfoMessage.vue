@@ -1,10 +1,10 @@
 <template>
   <div>
-    <article class="message mx-4 mr-10 is-info is-marginless-mobile">
+    <article class="message mx-4 mr-10 is-grey-light is-marginless-mobile">
       <section class="message-body">
         <div class="media is-flex is-align-items-center">
           <div class="media-left">
-            <span class="icon is-large is-info">
+            <span class="icon is-large is-grey-light">
               <i class="mdi mdi-information mdi-48px" />
             </span>
           </div>
