@@ -115,7 +115,7 @@ export default {
 
 .arrow {
   color: white;
-  width: 122px;
+  width: 128px;
   line-height: normal;
   height: 50px;
 }
