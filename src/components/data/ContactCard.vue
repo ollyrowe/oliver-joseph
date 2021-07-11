@@ -1,23 +1,30 @@
 <template>
-  <div class="card contact-card is-fullwidth-mobile">
+  <a :href="link" class="card contact-card is-fullwidth-mobile">
     <div
       class="card-content px-2 is-flex is-flex-direction-column is-align-items-center"
     >
       <span class="icon is-large is-info mb-4">
-        <slot name="icon" />
+        <i :class="`mdi ${icon} mdi-48px`" />
       </span>
       <div class="title is-size-4">
         {{ title }}
       </div>
-      <slot name="content" class="subtitle is-size-6" />
+      <a :href="link">
+        <button class="button is-ghost is-shadowless subtitle is-size-6">
+          {{ content }}
+        </button>
+      </a>
     </div>
-  </div>
+  </a>
 </template>
 
 <script>
 export default {
   props: {
-    title: String
+    title: String,
+    content: String,
+    link: String,
+    icon: String
   }
 };
 </script>

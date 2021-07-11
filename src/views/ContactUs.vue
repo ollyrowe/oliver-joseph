@@ -34,48 +34,27 @@
           <OpeningTimes class="is-flex-grow-1 mb-4 is-marginless-mobile" />
         </div>
         <div class="is-flex px-3 is-flex-wrap-wrap is-paddingless-mobile">
-          <ContactCard title="Email" class="my-4">
-            <template v-slot:icon>
-              <i class="mdi mdi-email mdi-48px" />
-            </template>
-            <template v-slot:content>
-              <a href="mailto:oliverjosephmsn@aol.com?subject=Website Enquiry">
-                <button
-                  class="button is-ghost is-shadowless subtitle is-size-6"
-                >
-                  oliverjosephmsn@aol.com
-                </button>
-              </a>
-            </template>
-          </ContactCard>
-          <ContactCard title="Telephone" class="mx-5 my-4 is-marginless-mobile">
-            <template v-slot:icon>
-              <i class="mdi mdi-phone mdi-48px" />
-            </template>
-            <template v-slot:content>
-              <a href="tel:01761416999">
-                <button
-                  class="button is-ghost is-shadowless subtitle is-size-6"
-                >
-                  01761 416999
-                </button>
-              </a>
-            </template>
-          </ContactCard>
-          <ContactCard title="Mobile" class="my-4">
-            <template v-slot:icon>
-              <i class="mdi mdi-cellphone mdi-48px" />
-            </template>
-            <template v-slot:content>
-              <a href="tel:+447936142317">
-                <button
-                  class="button is-ghost is-shadowless subtitle is-size-6"
-                >
-                  07936142317
-                </button>
-              </a>
-            </template>
-          </ContactCard>
+          <ContactCard
+            title="Email"
+            content="oliverjosephmsn@aol.com"
+            link="mailto:oliverjosephmsn@aol.com?subject=Website Enquiry"
+            icon="mdi-email"
+            class="my-4"
+          />
+          <ContactCard
+            title="Telephone"
+            content="01761 416999"
+            link="tel:01761416999"
+            icon="mdi-phone"
+            class="mx-5 my-4 is-marginless-mobile"
+          />
+          <ContactCard
+            title="Mobile"
+            content="07936142317"
+            link="tel:+447936142317"
+            icon="mdi-cellphone"
+            class="my-4"
+          />
         </div>
       </div>
     </div>
