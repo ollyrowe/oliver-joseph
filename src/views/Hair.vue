@@ -10,7 +10,7 @@
           :data="prices.cuttingStyling"
         />
         <Table title="Colour" :columns="columns.colour" :data="prices.colour" />
-        <InfoMessage class="mb-5">
+        <InfoMessage class="mb-5 mx-4">
           A skin test is required 48 hours prior to all colour treatments listed
           above
         </InfoMessage>

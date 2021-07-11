@@ -21,6 +21,9 @@
       </div>
       <div class="column">
         <OpeningTimes />
+        <InfoMessage icon="mdi-face-mask">
+          Please wear a face mask to your appointment
+        </InfoMessage>
       </div>
       <div class="column">
         <b-message
@@ -114,12 +117,14 @@
 <script>
 import Carousel from "@/components/data/Carousel.vue";
 import OpeningTimes from "@/components/data/OpeningTimes.vue";
+import InfoMessage from "../components/data/InfoMessage.vue";
 
 export default {
   name: "Home",
   components: {
     Carousel,
-    OpeningTimes
+    OpeningTimes,
+    InfoMessage
   },
   data() {
     return {
