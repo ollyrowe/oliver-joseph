@@ -119,8 +119,8 @@ export default {
           },
           {
             service: "Re-style",
-            seniorDirector: "£42",
-            seniorStylist: "£37"
+            seniorDirector: "from £42",
+            seniorStylist: "from £37"
           },
           {
             service: "Men's Cut and Blow Dry",
