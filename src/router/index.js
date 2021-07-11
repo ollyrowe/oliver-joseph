@@ -21,7 +21,7 @@ export const routes = [
     component: Hair
   },
   {
-    path: "/earPiercing",
+    path: "/ear-piercing",
     name: "Ear Piercing",
     component: EarPiercing
   },

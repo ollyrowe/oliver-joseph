@@ -61,7 +61,7 @@
         </a>
       </div>
       <div class="column p-5">
-        <a href="/earPiercing">
+        <a href="/ear-piercing">
           <b-image
             :src="require('@/assets/thumbs/oliver-joseph-beauty-thumb.jpg')"
             alt="Oliver Joseph Beauty"
