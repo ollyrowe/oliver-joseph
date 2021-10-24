@@ -50,7 +50,7 @@
           />
           <ContactCard
             title="Mobile"
-            content="07936142317"
+            content="07936 142317"
             link="tel:+447936142317"
             icon="mdi-cellphone"
             class="my-4"

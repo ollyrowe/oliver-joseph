@@ -27,26 +27,12 @@
           <div class="row is-flex my-4 is-align-items-center">
             <div class="is-flex">
               <div class="arrow p-1 px-2 is-size-6 has-background-grey-darker">
-                FLEXIBLE SERVICE
-              </div>
-              <div class="arrow-right is-hidden-mobile" />
-            </div>
-            <div class="subtitle is-size-6 ml-5 pl-5 is-paddingless-mobile">
-              <b>
-                A flexible service, we can visit you at a venue of your choice,
-              </b>
-              or you can start your special day in our salon.
-            </div>
-          </div>
-          <div class="row is-flex my-4 is-align-items-center">
-            <div class="is-flex">
-              <div class="arrow p-1 px-2 is-size-6 has-background-grey-darker">
                 FREE CONSULTATION
               </div>
               <div class="arrow-right is-hidden-mobile" />
             </div>
             <div class="subtitle is-size-6 ml-5 pl-5 is-paddingless-mobile">
-              Call us now on <b>01761 416999</b> to arrange your <b>FREE</b>,
+              Call us now on <b>07936 142317</b> to arrange your <b>FREE</b>,
               no-obligation consultation.
             </div>
           </div>
