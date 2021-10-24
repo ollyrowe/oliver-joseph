@@ -1,10 +1,10 @@
 <template>
-  <article class="message is-grey-dark has-background-dark p-3">
+  <article class="message is-grey-dark has-background-dark p-3 pb-5">
     <div class="message-header is-justify-content-center">
       <p>OPENING TIMES</p>
     </div>
     <div
-      class="message-body has-background-dark has-text-light has-text-centered p-2"
+      class="message-body has-background-dark has-text-light has-text-centered p-2 py-4 pb-5"
     >
       <div class="is-flex px-5">
         <div class="has-text-left">
@@ -28,7 +28,6 @@
           </strong>
         </div>
       </div>
-      <p class="mt-3">Free high street parking</p>
     </div>
   </article>
 </template>
