@@ -118,7 +118,7 @@ export default {
             seniorStylist: "£35"
           },
           {
-            service: "Re-style",
+            service: "Re-style / Long hair",
             seniorDirector: "from £42",
             seniorStylist: "from £37"
           },
@@ -169,8 +169,8 @@ export default {
         highLightingLowLighting: [
           {
             service: "T Section (1/4 Head)",
-            techDirector: "£40",
-            technician: "£35"
+            techDirector: "from £40",
+            technician: "from £35"
           },
           {
             service: "Half Head Foils",
@@ -186,15 +186,15 @@ export default {
         otherServices: [
           {
             service: "Permanent Straightening",
-            price: "from £76"
+            price: "price on visual consultation"
           },
           {
             service: "Perming",
-            price: "from £50"
+            price: "price on visual consultation"
           },
           {
             service: "Hair up",
-            price: "price on consultation"
+            price: "price on visual consultation"
           },
           {
             service: "Hair Treatments (repair, thicken and relax)",
