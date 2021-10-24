@@ -37,9 +37,8 @@
           </p>
           <br />
           <p>
-            Please leave a message on the salon answer machine: 01761 416999 or
-            text us on: 07936142317. We will return your call / message within
-            24 hours.
+            Please leave a text or voicemail message on 07936142317. We will
+            return your message within 24 hours.
           </p>
           <br />
           <p>
