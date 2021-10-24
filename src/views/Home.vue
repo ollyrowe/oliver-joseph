@@ -66,7 +66,7 @@
       <div class="column p-5">
         <a href="/ear-piercing">
           <b-image
-            :src="require('@/assets/thumbs/oliver-joseph-beauty-thumb.jpg')"
+            :src="require('@/assets/thumbs/oliver-joseph-piercing-thumb.png')"
             alt="Oliver Joseph Beauty"
           />
         </a>
@@ -129,22 +129,10 @@ export default {
   data() {
     return {
       images: [
-        {
-          caption: "We offer the most current techniques",
-          filename: "home/home-image1.jpg"
-        },
-        {
-          caption: "Hairdressing in a welcoming and professional environnement",
-          filename: "home/home-image2.jpg"
-        },
-        {
-          caption: "Using only the very best salon-professional products",
-          filename: "home/home-image3.jpg"
-        },
-        {
-          caption: "We believe in constant commitment to our craft",
-          filename: "home/home-image4.jpg"
-        },
+        { filename: "home/home-image1.jpg" },
+        { filename: "home/home-image2.jpg" },
+        { filename: "home/home-image3.jpg" },
+        { filename: "home/home-image4.jpg" },
         { filename: "home/home-image5.jpg" }
       ]
     };
