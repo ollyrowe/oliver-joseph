@@ -23,7 +23,6 @@
           title="Other Services"
           :columns="columns.otherServices"
           :data="prices.otherServices"
-          :showColumns="false"
         />
       </div>
     </div>
@@ -50,9 +49,6 @@ export default {
         },
         {
           filename: "hair/hair-image2.jpg"
-        },
-        {
-          filename: "hair/hair-image3.jpg"
         }
       ],
       columns: {
@@ -61,14 +57,8 @@ export default {
             field: "service"
           },
           {
-            field: "seniorDirector",
-            label: "Senior Director",
-            centered: true
-          },
-          {
-            field: "seniorStylist",
-            label: "Senior Stylist",
-            centered: true
+            field: "price",
+            label: "Price"
           }
         ],
         colour: [
@@ -76,14 +66,8 @@ export default {
             field: "service"
           },
           {
-            field: "techDirector",
-            label: "Technical Director",
-            centered: true
-          },
-          {
-            field: "technician",
-            label: "Technician",
-            centered: true
+            field: "price",
+            label: "Price"
           }
         ],
         highLightingLowLighting: [
@@ -91,14 +75,8 @@ export default {
             field: "service"
           },
           {
-            field: "techDirector",
-            label: "Technical Director",
-            centered: true
-          },
-          {
-            field: "technician",
-            label: "Technician",
-            centered: true
+            field: "price",
+            label: "Price"
           }
         ],
         otherServices: [
@@ -106,7 +84,8 @@ export default {
             field: "service"
           },
           {
-            field: "price"
+            field: "price",
+            label: "Price"
           }
         ]
       },
@@ -114,73 +93,63 @@ export default {
         cuttingStyling: [
           {
             service: "Cut and Blow Dry",
-            seniorDirector: "£40",
-            seniorStylist: "£35"
+            price: "£40"
           },
           {
             service: "Re-style / Long hair",
-            seniorDirector: "from £42",
-            seniorStylist: "from £37"
+            price: "from £42"
           },
           {
             service: "Men's Cut and Blow Dry",
-            seniorDirector: "£20",
-            seniorStylist: "£17"
+            price: "£20"
           },
           {
             service: "Blow Dry",
-            seniorDirector: "from £22",
-            seniorStylist: "£20"
+            price: "from £23"
           },
           {
             service: "Children",
-            seniorDirector: "from £9"
+            price: "from £9"
           }
         ],
         colour: [
           {
             service: "Semi Glossing",
-            techDirector: "£38",
-            technician: "£33"
+            price: "£39"
           },
           {
             service: "Tint Regrowth",
-            techDirector: "£38",
-            technician: "£33"
+            price: "£39"
           },
           {
             service: "Full Head Colour",
-            techDirector: "£40",
-            technician: "£35"
+            price: "from £40"
           },
           {
             service: "Balayage / Ombré",
-            techDirector: "price on visual consultation"
+            price: "price on visual consultation"
           },
           {
             service: "Colour Correction",
-            techDirector: "price on visual consultation"
+            price: "price on visual consultation"
           },
           {
             service: "Colour Change",
-            techDirector: "price on visual consultation"
+            price: "price on visual consultation"
           }
         ],
         highLightingLowLighting: [
           {
             service: "T Section (1/4 Head)",
-            techDirector: "from £40",
-            technician: "from £35"
+            price: "from £40"
           },
           {
             service: "Half Head Foils",
-            techDirector: "from £50",
-            technician: "from £45"
+            price: "from £50"
           },
           {
             service: "Full Head Foils",
-            techDirector: "from £66",
-            technician: "from £60"
+            price: "from £66"
           }
         ],
         otherServices: [
