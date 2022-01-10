@@ -38,13 +38,13 @@ export default {
     return {
       images: [
         {
-          filename: "beauty/beauty-image1.jpg"
+          filename: "beauty/beauty-image1.jpg",
+          caption:
+            "We use Caress System 2000 - A World Leading Ear-Piercing System"
         },
         {
-          filename: "beauty/beauty-image2.jpg"
-        },
-        {
-          filename: "beauty/beauty-image3.jpg"
+          filename: "beauty/beauty-image2.jpg",
+          caption: "The system we use is fully endorsed by the British Council"
         }
       ],
       earPiercingColumns: [
@@ -58,7 +58,7 @@ export default {
       earPiercingData: [
         {
           service: "Ear Piercing (Ear-lobe)",
-          price: "£32"
+          price: "£35"
         }
       ]
     };
