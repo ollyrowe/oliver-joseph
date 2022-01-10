@@ -20,10 +20,10 @@
         <div class="has-text-right is-flex-grow-1">
           <strong>
             Closed<br />
-            8am - 6pm<br />
-            8am - 6pm<br />
-            8am - 6pm<br />
-            8am - 6pm<br />
+            9am - 6pm<br />
+            9am - 6pm<br />
+            9am - 6pm<br />
+            9am - 6pm<br />
             8am - 4.30pm
           </strong>
         </div>
