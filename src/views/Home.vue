@@ -3,19 +3,21 @@
     <Carousel :images="images" />
     <div class="mt-3 columns px-5 is-marginless-mobile is-paddingless-mobile">
       <div class="column">
+        <b-message
+          title="New for 2022 - We're moving!"
+          :closable="false"
+          type="is-grey-dark"
+        >
+          <p>
+            As from 18th January 2022, we are moving to a new location in
+            Midsomer Norton.
+          </p>
+        </b-message>
         <b-message title="About Us" :closable="false" type="is-grey-dark">
           <p>
             Since we opened our doors in 2006, we have taken pride in offering
             exceptional standards in services and client care within a welcoming
-            and professional environment. We believe in constant commitment to
-            our craft by continued technical development, which enables us to
-            offer the most current techniques.
-          </p>
-          <br />
-          <p>
-            We use only the very best salon-professional products; Tigi,
-            Moroccan oil, and Color Wow. These products are available to
-            purchase from us, for you to maintain a professional finish at home.
+            and professional environment.
           </p>
         </b-message>
       </div>
@@ -32,13 +34,8 @@
           :closable="false"
         >
           <p>
-            To help with social distancing, please phone / text us if you would
-            like to make a hair appointment - please do not visit us in person.
-          </p>
-          <br />
-          <p>
-            Please leave a text or voicemail message on 07936142317. We will
-            return your message within 24 hours.
+            Appointments can be made by leaving a voicemail or text message on
+            07936142317. We will return your message within 24 hours.
           </p>
           <br />
           <p>
@@ -57,7 +54,7 @@
       <div class="column p-5">
         <a href="/hair">
           <b-image
-            :src="require('@/assets/thumbs/oliver-joseph-hair-thumb.jpg')"
+            :src="require('@/assets/thumbs/oliver-joseph-hair-thumb.png')"
             alt="Oliver Joseph Hair"
           />
         </a>
@@ -128,11 +125,16 @@ export default {
   data() {
     return {
       images: [
-        { filename: "home/home-image1.jpg" },
+        {
+          filename: "home/home-image1.jpg",
+          caption: "As from 18th January 2022, we are moving to a new location"
+        },
         { filename: "home/home-image2.jpg" },
-        { filename: "home/home-image3.jpg" },
-        { filename: "home/home-image4.jpg" },
-        { filename: "home/home-image5.jpg" }
+        {
+          filename: "home/home-image3.jpg",
+          caption:
+            "Olaplex, Moroccan oil, Tigi, and Color Wow products are available to purchase from the salon"
+        }
       ]
     };
   }
