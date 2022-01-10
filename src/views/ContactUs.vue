@@ -18,11 +18,10 @@
             >
               <i class="mdi mdi-map-marker mdi-48px p-5 m-2" />
               <div class="is-flex-grow-1 py-5">
-                <div class="subtitle m-2">1 Somer House</div>
-                <div class="subtitle m-2">High Street</div>
+                <div class="subtitle m-2">68 Spencer Drive</div>
                 <div class="subtitle m-2">Midsomer Norton</div>
                 <div class="subtitle m-2">Bath</div>
-                <div class="subtitle m-2">BA3 2HN</div>
+                <div class="subtitle m-2">BA3 2DN</div>
               </div>
               <img
                 :src="require('@/assets/images/misc/scissors-in-branches.jpg')"
@@ -35,24 +34,24 @@
         </div>
         <div class="is-flex px-3 is-flex-wrap-wrap is-paddingless-mobile">
           <ContactCard
+            title="Mobile"
+            content="07936 142317"
+            link="tel:+447936142317"
+            icon="mdi-cellphone"
+            class="my-4"
+          />
+          <ContactCard
             title="Email"
             content="oliverjosephmsn@aol.com"
             link="mailto:oliverjosephmsn@aol.com?subject=Website Enquiry"
             icon="mdi-email"
-            class="my-4"
+            class="mx-5 my-4 is-marginless-mobile"
           />
           <ContactCard
             title="Telephone"
             content="01761 416999"
             link="tel:01761416999"
             icon="mdi-phone"
-            class="mx-5 my-4 is-marginless-mobile"
-          />
-          <ContactCard
-            title="Mobile"
-            content="07936 142317"
-            link="tel:+447936142317"
-            icon="mdi-cellphone"
             class="my-4"
           />
         </div>

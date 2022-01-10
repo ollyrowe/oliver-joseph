@@ -3,17 +3,12 @@
     <div
       class="container is-flex is-flex-grow-1 is-max-desktop is-justify-content-center"
     >
-      <img
-        src="../../../assets/logos/oliver-joseph-logo.png"
-        alt="Oliver Joseph Logo"
-        class="m-auto"
-      />
+      <Logo />
       <div
         class="has-text-grey-light has-text-right is-hidden-mobile is-flex is-flex-grow-1 is-flex-direction-column p-2 pt-4 pr-3"
       >
         <div class="is-flex is-flex-direction-column is-flex-grow-1">
-          <span class="is-size-7">1 Somer House, High Street</span>
-          <span class="is-size-7">Midsomer Norton, BA3 2HN</span>
+          <span class="is-size-7">Midsomer Norton, BA3 2DN</span>
         </div>
         <div class="is-flex is-justify-content-flex-end is-align-items-center">
           <div class="is-flex">
@@ -41,7 +36,10 @@
 </template>
 
 <script>
+import Logo from "./Logo.vue";
+
 export default {
-  name: "AppBar"
+  name: "AppBar",
+  components: { Logo }
 };
 </script>
