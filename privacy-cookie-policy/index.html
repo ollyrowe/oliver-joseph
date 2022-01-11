@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+
+	
+<!-- Mirrored from www.oliverjosephhairdressing.co.uk/privacy-cookie-policy/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Jul 2021 19:11:58 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="privacy,cookie,policy">
+		<meta name="author" content="">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Privacy Cookie Policy</title>
+
+		<base >
+
+		<link rel="shortcut icon" href="../favicon.png">
+		<link rel="apple-touch-icon-precomposed" href="../favicon.png">
+		<link rel="apple-touch-icon" href="../favicon.png">
+<link rel="stylesheet" media="all" href="../css/font-awesome.minceff.css?cms=2.5.0" defer="defer">
+<link rel="stylesheet" media="all" href="../css/defaultceff.css?cms=2.5.0" defer="defer">
+<link rel="stylesheet" media="all" href="../css/slicknavceff.css?cms=2.5.0" defer="defer">
+<link rel="stylesheet" media="all" href="../modules/Templates/et1/css/et1-defaultceff.css?cms=2.5.0" defer="defer">
+<link rel="stylesheet" media="all" href="../modules/Templates/et1/css/et1a-headerceff.css?cms=2.5.0" defer="defer">
+<link rel="stylesheet" media="all" href="../modules/Templates/et1/css/et1d-footerceff.css?cms=2.5.0" defer="defer">
+<link rel="stylesheet" media="all" href="../css/custom-et1f059.css?date=1591365560" defer="defer">
+<script src="../javascript/jqueryceff.js?cms=2.5.0" ></script>
+<script src="../javascript/jquery-easingceff.js?cms=2.5.0"  defer="defer"></script>
+<script src="../javascript/jquery-timerceff.js?cms=2.5.0"  defer="defer"></script>
+<script src="../javascript/functionsceff.js?cms=2.5.0"  defer="defer"></script>
+<script src="../javascript/jquery.slicknavceff.js?cms=2.5.0" ></script>
+<script src="../javascript/pageceff.js?cms=2.5.0" ></script>
+<script src="../javascript/jquery-extensionsceff.js?cms=2.5.0"  defer="defer"></script>
+<script src="../javascript/jquery.royalslider.minceff.js?cms=2.5.0"  defer="defer"></script>
+<meta property="robots" content="index, follow">
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="en_UK" >
+<meta property="og:type" content="website" >
+<meta property="og:title" content="Privacy Cookie Policy" >
+<meta property="og:description" content="" >
+<meta property="og:url" content="https://www.oliverjosephhairdressing.co.uk/privacy-cookie-policy/" >
+<meta property="og:image" content="https://www.oliverjosephhairdressing.co.uk/" >
+<meta property="twitter:card" content="https://www.oliverjosephhairdressing.co.uk/" >
+<meta property="twitter:title" content="Privacy Cookie Policy" >
+<meta property="twitter:description" content="" >
+<meta property="twitter:image:src" content="https://www.oliverjosephhairdressing.co.uk/" >				<script>
+
+					(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+					})(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+
+					ga('create', 'UA-100250537-1', 'auto');
+					ga('send', {
+						hitType: 'pageview',
+						title: 'Privacy Cookie Policy', 
+						location: 'https://www.oliverjosephhairdressing.co.uk/privacy-cookie-policy/', 
+						page: 'https://www.oliverjosephhairdressing.co.uk/privacy-cookie-policy/' 
+					});
+
+				</script>
+			</head>
+
+	<body data-analytics="true">
+
+		<div class="page"><script>
+
+	var Element_MobileSizes;
+	var Element_Header;
+
+	function shiftDrop()
+	{
+		Array_Dropdowns = $("header nav").find(".drop");
+
+		$.each(Array_Dropdowns, function(Integer_Index, Element_Drop)
+		{
+			$(Element_Drop).css({ "right": "", "display": "block", "visibility": "hidden" });
+			triggerReflow($(Element_Drop));
+
+			if(parseInt($(Element_Drop).css("right").replace("px", "")) <= 0)
+			{
+				$(Element_Drop).css("right", 0);
+			}
+
+			$(Element_Drop).css({ "display": "", "visibility": "" });
+		});
+	}
+
+	// Automatically push down rest of the content so that the menu does not hide it.
+	function padNextElement(Integer_Padding)
+	{
+		Element_Next = Element_Header.nextAll(":visible").filter(function()
+		{
+			if($(this).css("position") != "absolute" && $(this).css("position") != "fixed")
+			{
+				return $(this);
+			}
+		}).first();
+
+		if(Element_Header.css("position") == "absolute" || Element_Header.css("position") == "fixed")
+		{
+			Array_AnimatedElements = Element_Header.find("nav > ul > li > a");
+			Array_AnimatedElements.addClass("no-transition");
+			Element_Header.find(".header-logo").addClass("no-transition");
+			Element_Header.find(".header-details").addClass("no-transition");
+			Element_Next.css("padding-top", "");
+
+			Element_Next.addClass("no-transition");
+
+			Element_Header.find(".header-logo").css("display", "");
+			
+			triggerReflow(Element_Header[0]);
+			triggerReflow(Element_Next[0]);
+
+			Element_Next.css("padding-top", Element_Header.outerHeight() + parseInt(Element_Next.css("padding-top").replace("px", "")));
+
+			triggerReflow(Element_Next[0]);
+
+			updateHeader();
+
+			$.each(Array_AnimatedElements, function(Integer_Index, Element_Animated)
+			{
+				triggerReflow(Element_Animated);
+			});
+
+			Array_AnimatedElements.removeClass("no-transition");
+			Element_Header.find(".header-logo").removeClass("no-transition");
+			Element_Header.find(".header-details").removeClass("no-transition");
+			Element_Next.removeClass("no-transition");
+		}
+		else
+		{
+			Element_Next.css("padding-top", "");
+		}
+	}
+
+	function updateHeader()
+	{
+		Boolean_Shrink = ($(window).scrollTop() > 100);
+		
+		if(Element_Header.css("position") == "fixed" && Element_MobileSizes.find(".s800").css("display") == "block" && Boolean_Shrink)
+		{
+			Element_Header.find(".header-logo").css("height", "0");
+		}
+		else
+		{
+			Element_Header.find(".header-logo").css("height", "");
+		}
+	}
+
+	function fitMenuOnScreen()
+	{
+		$("#menu-container").css("max-height", ($("header").css("position") == "fixed" ? $(window).outerHeight() - $("header").outerHeight() : "none"));
+	}
+
+	var Integer_DefaultWidth = 0;
+
+	$(function()
+	{
+		Element_MobileSizes = $("#ifmobilesize");
+		Element_Header = $('header');
+
+		Integer_DefaultWidth = $(window).width();
+
+		$(window).on("resize", function()
+		{
+			if(Integer_DefaultWidth != $(this).width())
+			{
+				padNextElement();
+				shiftDrop();
+				fitMenuOnScreen();
+				Integer_DefaultWidth = $(this).width();
+			}
+		});
+
+		$(window).on("scroll", function()
+		{
+			updateHeader();
+			fitMenuOnScreen();
+		});
+
+		padNextElement();
+		shiftDrop();
+		fitMenuOnScreen();
+
+		if(Element_Header.find(".header-logo img").prop("complete"))
+		{
+			padNextElement();
+			shiftDrop();
+			fitMenuOnScreen();
+		}
+		else
+		{
+			Element_Header.find(".header-logo img").on('load', function()
+			{
+				padNextElement();
+				shiftDrop();
+				fitMenuOnScreen();
+			});
+		}
+
+		$("nav").on("tap", ".tap-hover", function()
+		{
+			if(!$("body").hasClass("hover-active") && !$(this).parent().hasClass("tapped"))
+			{
+				$(".tapped").removeClass("tapped");
+				$(this).parent().addClass("tapped");
+				return false;
+			}
+		});
+
+		// Disables dropdown if not target
+		$(document).on("touchstart", function(event)
+		{
+			if(!$(event.target).hasClass("tapped") && $(event.target).parents(".tapped").length < 1)
+			{
+				$(".tapped").removeClass("tapped");
+			}
+		});
+
+		$("form.search button").on("click", function()
+		{
+			Element_FieldsContainer = $("form.search .search-container");
+
+			if($(this).hasClass('desktop-search-button') && $(this).parents('nav').length > 0)
+			{
+				if($(this).parent().hasClass("search-open"))
+				{
+					$(this).parent().submit();
+				}
+				else
+				{
+					$(this).parent().addClass("search-open");
+
+					Element_FieldsContainer.css({"width": "auto", "visibility": "hidden", "overflow": "visible"});
+					triggerReflow(Element_FieldsContainer[0]);
+
+					Integer_NewWidth = Element_FieldsContainer.outerWidth();
+
+					Element_FieldsContainer.css({"width": "", "visibility": "", "overflow": ""});
+					triggerReflow(Element_FieldsContainer[0]);
+
+					Element_FieldsContainer.css("width", Integer_NewWidth);
+				}
+			}
+			else
+			{
+				$(this).parent().submit();
+			}
+		});
+
+		$("form.search .search-close").on("click", function()
+		{
+			$("form.search .search-container").css("width", "");
+
+			$("form.search").removeClass("search-open");
+		});
+	});
+
+</script>
+
+<header class="main-et1a"><div class="header-top">
+	
+		<div class="offset">
+
+			<div class="header-logo">
+
+				<a class="logo" href="../home/index.html"><img src="../images/oliver-joseph-logo.png" alt="Oliver Joseph Hairdressing" /></a><!--
+				-->
+			</div><!--
+
+			--><div class="header-details">
+
+				<div class="header-contact desktop-element">
+
+										<div class="clear"></div>
+					<div class="block1"><p>1 Somer House, High Street<br>Midsomer Norton, BA3 2HN</p><div class="phone"> 01761 416999</div><div class="icon"><a href="https://www.facebook.com/pages/Oliver-Joseph/1615539395334924" target="_blank"><img src="../images/facebook-icon-header.png" alt="Oliver Joseph - Hairdressing &amp; Beauty - Facebook" style="margin-right:10px;"></a> <img src="../images/mobile-icon.png" alt="Phone 01761 416999"></div></div>
+					<div class="clear"></div>
+
+				</div>
+				<div class="mobile-commerce mobile-element col_4"><span class="commerce-button mobile-menu mobile-menu"><span class="icon">&#xf0c9;</span><span class="button-label">Menu</span></span><a href="../hair/index.html" class="commerce-button mobile-services mobile-services"><span class="icon">&#xf0c4;</span><span class="button-label">Services</span></a><a href="tel:01761416999" class="commerce-button mobile-phone mobile-phone"><span class="icon">&#xf095;</span><span class="button-label">Phone</span></a><a href="../contact-us/index.html" class="commerce-button mobile-email mobile-email"><span class="icon">&#xf0e0;</span><span class="button-label">Email</span></a></div>
+						
+				<div class="clear"></div>
+
+			</div>
+
+		</div>
+		
+	</div>
+
+	<nav class="main-et1a">
+
+		<div class="offset">
+
+			<ul class="animate"><li><a href="../home/index.html">Home</a></li><li><a href="../hair/index.html">Hair</a></li><li><a href="../beauty/index.html">Beauty</a></li><li><a href="../wedding/index.html">Wedding</a></li><li><a href="../careers-and-vacancies/index.html">Careers & Vacancies </a></li><li><a href="../contact-us/index.html">Contact Us</a></li></ul>
+		</div>
+
+	</nav>
+
+	<script>
+
+	$(function()
+	{
+		$('.mobile-menu').on("click", function()
+		{
+			// If search is open, close it at a faster speed and delay opening menu
+			if($('.mobile-search').hasClass('open'))
+			{
+				$('#mobile-search-container').slideUp(200);
+				$('.mobile-search').removeClass('open');
+				$('#menu-container .slicknav_nav').delay(200);
+			}
+
+			$(this).toggleClass('open');
+			$('#menu-container .slicknav_nav').slideToggle();
+
+			return false;
+		});
+
+		$('.mobile-search').on("click", function()
+		{
+			// If menu is open, close it at a faster speed and delay opening search
+			if($('.mobile-menu').hasClass('open'))
+			{
+				$('#menu-container .slicknav_nav').slideUp(200);
+				$('.mobile-menu').removeClass('open');
+				$('#mobile-search-container').delay(200);
+			}
+
+			$(this).toggleClass('open');
+			$('#mobile-search-container').slideToggle();
+
+			return false;
+		});
+
+		$('#menu-container > ul').slicknav({
+			label: '',
+			duplicate: false,
+			parentTag: 'a',
+			closedSymbol: '<img src="images/slicknav-arrow-right.png" />',
+			openedSymbol: '<img src="images/slicknav-arrow-down.png" />',
+			prependTo:'#menu-container'
+		});
+
+		$('.slicknav_btn').remove();
+	});
+
+</script>
+
+<div id="mobile-nav">
+
+	<div id="mobile-search-container" style="display: none;"><form class="search" method="post"><script>
+
+			$("form.search").off("submit");
+			$("form.search").on("submit", function(Event)
+			{
+				Event.preventDefault();
+
+				if(AJAX_AutoSuggestSearch != null)
+				{
+					AJAX_AutoSuggestSearch.abort();
+				}
+
+				$.post("../ajax.html", { 'function': 'search-query', 'table': 'products', 'query': $(this).find("[name='search']").val() }, function(String_Response)
+				{
+					window.location = String_Response;
+				});
+
+				return false;
+			});
+
+			var AJAX_AutoSuggestSearch = null;
+
+			
+		</script><span class="search-header">Search</span><button type="submit" class="mobile-search-button"><span class="icon">&#xf002;</span></button><div class="search-fields"><div class="input-container"><input name="search" class="search_mobile" value="" autocomplete="off" /></div></div><div class="clear"></div></form></div><div id="menu-container"><ul class="menu" style="display: none;"><li><a href="../home/index.html">Home</a></li><li><a href="../hair/index.html">Hair</a></li><li><a href="../beauty/index.html">Beauty</a></li><li><a href="../wedding/index.html">Wedding</a></li><li><a href="../careers-and-vacancies/index.html">Careers & Vacancies </a></li><li><a href="../contact-us/index.html">Contact Us</a></li></ul></div>
+
+</div>
+</header><section class="main">
+
+				<div class="container">
+
+					<div class="container-inner">
+
+						<div class="standard-top">
+
+							<div class="content">
+
+								<div class="cms_2"></div>
+
+							</div>
+
+						</div>
+
+						<div class="standard-content">
+
+							<div class="content">
+
+								<div class="cms_1"> <h1>Privacy &amp; Cookie Policy<br></h1><p><b>Google Analytics Cookies</b></p><p>We use cookies on our site for Google Analytics. Google Analytics is a web analytics tool that helps website owners understand how visitors engage with their website. Google Analytics customers can view a variety of reports about how visitors interact with their website so that they can improve it. Like many services, Google Analytics uses first-party cookies to track visitor interactions as in our case, where they are used to collect information about how visitors use our site. We then use the information to compile reports and to help us improve our site. Google Analytics collects information anonymously. It reports website trends without identifying individual visitors.</p><p><b>Refusing or Deleting Cookies</b></p><p><strong> </strong> You may refuse or delete cookies by activating the setting on your browser which allows you to refuse or delete the setting of cookies. However, if you select this setting you may be unable to access certain parts of our site. <br></p><p>You may opt out of Google Analytics without affecting how you visit our site - for more information on opting out of being tracked by Google Analytics across all websites you use, visit this <a href="http://tools.google.com/dlpage/gaoptout" target="_blank">Google page</a>.</p> </div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</section>
+
+<footer class="main-et1d">
+
+	<div class="footer-content">
+
+		<div class="offset col_1">
+
+			<div class="footer_panel panel_101"><div class="content-bgd">&nbsp;</div>
+
+<div class="left">
+<p>&copy; 2020 Oliver Joseph Hairdressing</p>
+
+<p><a href="http://www.webglu.co.uk/" target="_blank">Website by Webglu</a> <img src="../images/webglu-logo.png" /></p>
+</div>
+
+<div class="right">
+<p><a href="../terms-use/index.html">Terms of use</a> | <a href="index.html">Privacy &amp; cookie Policy</a> | <a href="../site-map/index.html">Site map</a></p>
+
+<p><a href="https://www.facebook.com/pages/Oliver-Joseph/1615539395334924" target="_blank"><img src="../images/facebook-icon-footer.png" /></a></p>
+</div>
+</div>
+		</div>
+
+	</div>
+	
+	<div class="footer-copyright">
+
+		<div class="offset">
+
+			<p>Copyright Oliver Joseph Hairdressing 2021 <strong></strong></p>
+			<p>Website by Webglu <img class="webglu" src="../images/webglu-logo.png" alt="Webglu Ltd" /></p>
+
+		</div>
+
+	</div>
+
+</footer></div>
+
+	</body>
+
+
+<!-- Mirrored from www.oliverjosephhairdressing.co.uk/privacy-cookie-policy/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Jul 2021 19:11:58 GMT -->
+</html>

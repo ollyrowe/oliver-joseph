@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+
+	
+<!-- Mirrored from www.oliverjosephhairdressing.co.uk/beauty/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Jul 2021 19:11:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+		<meta charset="utf-8">
+		<meta name="description" content="Oliver Joseph Hairdressing &amp; Beauty offer a wide range of beauty and holistic treatments.">
+		<meta name="keywords" content="">
+		<meta name="author" content="">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Beauty Oliver Joseph Midsomer Norton</title>
+
+		<base >
+
+		<link rel="shortcut icon" href="../favicon.png">
+		<link rel="apple-touch-icon-precomposed" href="../favicon.png">
+		<link rel="apple-touch-icon" href="../favicon.png">
+<link rel="stylesheet" media="all" href="../css/font-awesome.minceff.css?cms=2.5.0" defer="defer">
+<link rel="stylesheet" media="all" href="../css/defaultceff.css?cms=2.5.0" defer="defer">
+<link rel="stylesheet" media="all" href="../css/slicknavceff.css?cms=2.5.0" defer="defer">
+<link rel="stylesheet" media="all" href="../modules/Templates/et1/css/et1-defaultceff.css?cms=2.5.0" defer="defer">
+<link rel="stylesheet" media="all" href="../modules/Templates/et1/css/et1a-headerceff.css?cms=2.5.0" defer="defer">
+<link rel="stylesheet" media="all" href="../modules/Templates/et1/css/et1d-footerceff.css?cms=2.5.0" defer="defer">
+<link rel="stylesheet" media="all" href="../css/custom-et1f059.css?date=1591365560" defer="defer">
+<script src="../javascript/jqueryceff.js?cms=2.5.0" ></script>
+<script src="../javascript/jquery-easingceff.js?cms=2.5.0"  defer="defer"></script>
+<script src="../javascript/jquery-timerceff.js?cms=2.5.0"  defer="defer"></script>
+<script src="../javascript/functionsceff.js?cms=2.5.0"  defer="defer"></script>
+<script src="../javascript/jquery.slicknavceff.js?cms=2.5.0" ></script>
+<script src="../javascript/pageceff.js?cms=2.5.0" ></script>
+<script src="../javascript/jquery-extensionsceff.js?cms=2.5.0"  defer="defer"></script>
+<script src="../javascript/jquery.royalslider.minceff.js?cms=2.5.0"  defer="defer"></script>
+<script src="../javascript/slideshowceff.js?cms=2.5.0"  defer="defer"></script>
+<meta property="robots" content="index, follow">
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="en_UK" >
+<meta property="og:type" content="website" >
+<meta property="og:title" content="Beauty Oliver Joseph Midsomer Norton" >
+<meta property="og:description" content="Oliver Joseph Hairdressing & Beauty offer a wide range of beauty and holistic treatments." >
+<meta property="og:url" content="https://www.oliverjosephhairdressing.co.uk/beauty/" >
+<meta property="og:image" content="https://www.oliverjosephhairdressing.co.uk/" >
+<meta property="twitter:card" content="https://www.oliverjosephhairdressing.co.uk/" >
+<meta property="twitter:title" content="Beauty Oliver Joseph Midsomer Norton" >
+<meta property="twitter:description" content="Oliver Joseph Hairdressing & Beauty offer a wide range of beauty and holistic treatments." >
+<meta property="twitter:image:src" content="https://www.oliverjosephhairdressing.co.uk/" >				<script>
+
+					(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+					})(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+
+					ga('create', 'UA-100250537-1', 'auto');
+					ga('send', {
+						hitType: 'pageview',
+						title: 'Beauty', 
+						location: 'https://www.oliverjosephhairdressing.co.uk/beauty/', 
+						page: 'https://www.oliverjosephhairdressing.co.uk/beauty/' 
+					});
+
+				</script>
+			</head>
+
+	<body data-analytics="true">
+
+		<div class="page"><script>
+
+	var Element_MobileSizes;
+	var Element_Header;
+
+	function shiftDrop()
+	{
+		Array_Dropdowns = $("header nav").find(".drop");
+
+		$.each(Array_Dropdowns, function(Integer_Index, Element_Drop)
+		{
+			$(Element_Drop).css({ "right": "", "display": "block", "visibility": "hidden" });
+			triggerReflow($(Element_Drop));
+
+			if(parseInt($(Element_Drop).css("right").replace("px", "")) <= 0)
+			{
+				$(Element_Drop).css("right", 0);
+			}
+
+			$(Element_Drop).css({ "display": "", "visibility": "" });
+		});
+	}
+
+	// Automatically push down rest of the content so that the menu does not hide it.
+	function padNextElement(Integer_Padding)
+	{
+		Element_Next = Element_Header.nextAll(":visible").filter(function()
+		{
+			if($(this).css("position") != "absolute" && $(this).css("position") != "fixed")
+			{
+				return $(this);
+			}
+		}).first();
+
+		if(Element_Header.css("position") == "absolute" || Element_Header.css("position") == "fixed")
+		{
+			Array_AnimatedElements = Element_Header.find("nav > ul > li > a");
+			Array_AnimatedElements.addClass("no-transition");
+			Element_Header.find(".header-logo").addClass("no-transition");
+			Element_Header.find(".header-details").addClass("no-transition");
+			Element_Next.css("padding-top", "");
+
+			Element_Next.addClass("no-transition");
+
+			Element_Header.find(".header-logo").css("display", "");
+			
+			triggerReflow(Element_Header[0]);
+			triggerReflow(Element_Next[0]);
+
+			Element_Next.css("padding-top", Element_Header.outerHeight() + parseInt(Element_Next.css("padding-top").replace("px", "")));
+
+			triggerReflow(Element_Next[0]);
+
+			updateHeader();
+
+			$.each(Array_AnimatedElements, function(Integer_Index, Element_Animated)
+			{
+				triggerReflow(Element_Animated);
+			});
+
+			Array_AnimatedElements.removeClass("no-transition");
+			Element_Header.find(".header-logo").removeClass("no-transition");
+			Element_Header.find(".header-details").removeClass("no-transition");
+			Element_Next.removeClass("no-transition");
+		}
+		else
+		{
+			Element_Next.css("padding-top", "");
+		}
+	}
+
+	function updateHeader()
+	{
+		Boolean_Shrink = ($(window).scrollTop() > 100);
+		
+		if(Element_Header.css("position") == "fixed" && Element_MobileSizes.find(".s800").css("display") == "block" && Boolean_Shrink)
+		{
+			Element_Header.find(".header-logo").css("height", "0");
+		}
+		else
+		{
+			Element_Header.find(".header-logo").css("height", "");
+		}
+	}
+
+	function fitMenuOnScreen()
+	{
+		$("#menu-container").css("max-height", ($("header").css("position") == "fixed" ? $(window).outerHeight() - $("header").outerHeight() : "none"));
+	}
+
+	var Integer_DefaultWidth = 0;
+
+	$(function()
+	{
+		Element_MobileSizes = $("#ifmobilesize");
+		Element_Header = $('header');
+
+		Integer_DefaultWidth = $(window).width();
+
+		$(window).on("resize", function()
+		{
+			if(Integer_DefaultWidth != $(this).width())
+			{
+				padNextElement();
+				shiftDrop();
+				fitMenuOnScreen();
+				Integer_DefaultWidth = $(this).width();
+			}
+		});
+
+		$(window).on("scroll", function()
+		{
+			updateHeader();
+			fitMenuOnScreen();
+		});
+
+		padNextElement();
+		shiftDrop();
+		fitMenuOnScreen();
+
+		if(Element_Header.find(".header-logo img").prop("complete"))
+		{
+			padNextElement();
+			shiftDrop();
+			fitMenuOnScreen();
+		}
+		else
+		{
+			Element_Header.find(".header-logo img").on('load', function()
+			{
+				padNextElement();
+				shiftDrop();
+				fitMenuOnScreen();
+			});
+		}
+
+		$("nav").on("tap", ".tap-hover", function()
+		{
+			if(!$("body").hasClass("hover-active") && !$(this).parent().hasClass("tapped"))
+			{
+				$(".tapped").removeClass("tapped");
+				$(this).parent().addClass("tapped");
+				return false;
+			}
+		});
+
+		// Disables dropdown if not target
+		$(document).on("touchstart", function(event)
+		{
+			if(!$(event.target).hasClass("tapped") && $(event.target).parents(".tapped").length < 1)
+			{
+				$(".tapped").removeClass("tapped");
+			}
+		});
+
+		$("form.search button").on("click", function()
+		{
+			Element_FieldsContainer = $("form.search .search-container");
+
+			if($(this).hasClass('desktop-search-button') && $(this).parents('nav').length > 0)
+			{
+				if($(this).parent().hasClass("search-open"))
+				{
+					$(this).parent().submit();
+				}
+				else
+				{
+					$(this).parent().addClass("search-open");
+
+					Element_FieldsContainer.css({"width": "auto", "visibility": "hidden", "overflow": "visible"});
+					triggerReflow(Element_FieldsContainer[0]);
+
+					Integer_NewWidth = Element_FieldsContainer.outerWidth();
+
+					Element_FieldsContainer.css({"width": "", "visibility": "", "overflow": ""});
+					triggerReflow(Element_FieldsContainer[0]);
+
+					Element_FieldsContainer.css("width", Integer_NewWidth);
+				}
+			}
+			else
+			{
+				$(this).parent().submit();
+			}
+		});
+
+		$("form.search .search-close").on("click", function()
+		{
+			$("form.search .search-container").css("width", "");
+
+			$("form.search").removeClass("search-open");
+		});
+	});
+
+</script>
+
+<header class="main-et1a"><div class="header-top">
+	
+		<div class="offset">
+
+			<div class="header-logo">
+
+				<a class="logo" href="../home/index.html"><img src="../images/oliver-joseph-logo.png" alt="Oliver Joseph Hairdressing" /></a><!--
+				-->
+			</div><!--
+
+			--><div class="header-details">
+
+				<div class="header-contact desktop-element">
+
+										<div class="clear"></div>
+					<div class="block1"><p>1 Somer House, High Street<br>Midsomer Norton, BA3 2HN</p><div class="phone"> 01761 416999</div><div class="icon"><a href="https://www.facebook.com/pages/Oliver-Joseph/1615539395334924" target="_blank"><img src="../images/facebook-icon-header.png" alt="Oliver Joseph - Hairdressing &amp; Beauty - Facebook" style="margin-right:10px;"></a> <img src="../images/mobile-icon.png" alt="Phone 01761 416999"></div></div>
+					<div class="clear"></div>
+
+				</div>
+				<div class="mobile-commerce mobile-element col_4"><span class="commerce-button mobile-menu mobile-menu"><span class="icon">&#xf0c9;</span><span class="button-label">Menu</span></span><a href="../hair/index.html" class="commerce-button mobile-services mobile-services"><span class="icon">&#xf0c4;</span><span class="button-label">Services</span></a><a href="tel:01761416999" class="commerce-button mobile-phone mobile-phone"><span class="icon">&#xf095;</span><span class="button-label">Phone</span></a><a href="../contact-us/index.html" class="commerce-button mobile-email mobile-email"><span class="icon">&#xf0e0;</span><span class="button-label">Email</span></a></div>
+						
+				<div class="clear"></div>
+
+			</div>
+
+		</div>
+		
+	</div>
+
+	<nav class="main-et1a">
+
+		<div class="offset">
+
+			<ul class="animate"><li><a href="../home/index.html">Home</a></li><li><a href="../hair/index.html">Hair</a></li><li><a class="current" href="index.html">Beauty</a></li><li><a href="../wedding/index.html">Wedding</a></li><li><a href="../careers-and-vacancies/index.html">Careers & Vacancies </a></li><li><a href="../contact-us/index.html">Contact Us</a></li></ul>
+		</div>
+
+	</nav>
+
+	<script>
+
+	$(function()
+	{
+		$('.mobile-menu').on("click", function()
+		{
+			// If search is open, close it at a faster speed and delay opening menu
+			if($('.mobile-search').hasClass('open'))
+			{
+				$('#mobile-search-container').slideUp(200);
+				$('.mobile-search').removeClass('open');
+				$('#menu-container .slicknav_nav').delay(200);
+			}
+
+			$(this).toggleClass('open');
+			$('#menu-container .slicknav_nav').slideToggle();
+
+			return false;
+		});
+
+		$('.mobile-search').on("click", function()
+		{
+			// If menu is open, close it at a faster speed and delay opening search
+			if($('.mobile-menu').hasClass('open'))
+			{
+				$('#menu-container .slicknav_nav').slideUp(200);
+				$('.mobile-menu').removeClass('open');
+				$('#mobile-search-container').delay(200);
+			}
+
+			$(this).toggleClass('open');
+			$('#mobile-search-container').slideToggle();
+
+			return false;
+		});
+
+		$('#menu-container > ul').slicknav({
+			label: '',
+			duplicate: false,
+			parentTag: 'a',
+			closedSymbol: '<img src="images/slicknav-arrow-right.png" />',
+			openedSymbol: '<img src="images/slicknav-arrow-down.png" />',
+			prependTo:'#menu-container'
+		});
+
+		$('.slicknav_btn').remove();
+	});
+
+</script>
+
+<div id="mobile-nav">
+
+	<div id="mobile-search-container" style="display: none;"><form class="search" method="post"><script>
+
+			$("form.search").off("submit");
+			$("form.search").on("submit", function(Event)
+			{
+				Event.preventDefault();
+
+				if(AJAX_AutoSuggestSearch != null)
+				{
+					AJAX_AutoSuggestSearch.abort();
+				}
+
+				$.post("../ajax.html", { 'function': 'search-query', 'table': 'products', 'query': $(this).find("[name='search']").val() }, function(String_Response)
+				{
+					window.location = String_Response;
+				});
+
+				return false;
+			});
+
+			var AJAX_AutoSuggestSearch = null;
+
+			
+		</script><span class="search-header">Search</span><button type="submit" class="mobile-search-button"><span class="icon">&#xf002;</span></button><div class="search-fields"><div class="input-container"><input name="search" class="search_mobile" value="" autocomplete="off" /></div></div><div class="clear"></div></form></div><div id="menu-container"><ul class="menu" style="display: none;"><li><a href="../home/index.html">Home</a></li><li><a href="../hair/index.html">Hair</a></li><li><a class="current" href="index.html">Beauty</a></li><li><a href="../wedding/index.html">Wedding</a></li><li><a href="../careers-and-vacancies/index.html">Careers & Vacancies </a></li><li><a href="../contact-us/index.html">Contact Us</a></li></ul></div>
+
+</div>
+</header><section class="main">
+
+				<div class="container">
+
+					<div class="container-inner">
+
+						<div class="slideshow fullWidth clearfix"><div class="wg-slider slider_1">
+
+					<script>
+
+						$("head").append("<style>div.wg-slider.slider_1 .slides { padding-top: 50%; }  @media only screen and (min-width: 0px) and (max-width: 800px) { div.wg-slider.slider_1 .slides { padding-top: 100%; } }</style>");
+
+						$(function()
+						{
+							$('.slider_1').slideshow({animation: 'fade',animationDirection: 'left',animationLength: 600,queueAnimations: 0,continueOnClick: 1,pauseOnHover: 0,arrows: 0,dragAndSlide: 0,arrowsInside: 1,duration: 6000,globalContent: 0,hideContent: 1,contentFromEdge: 1,infinite: 0,autoplay: 1,showPips: 1});
+						});
+
+					</script><div class="slides-container"><div class="slides"><div class="slide" draggable="false">
+									<a class="slide-image slide-large slide-loading" draggable="false" data-image='content/gallery/559b05099f1e34.68282781.jpg'></a>
+									<a class="slide-image slide-thumb slide-loading" draggable="false" data-image='content/gallery/_559b05099f1e34.68282781.jpg'></a></div><div class="slide" draggable="false">
+									<a class="slide-image slide-large slide-loading" draggable="false" data-image='content/gallery/558adca3038938.67893847.jpg'></a>
+									<a class="slide-image slide-thumb slide-loading" draggable="false" data-image='content/gallery/_558adca3038938.67893847.jpg'></a></div><div class="slide" draggable="false">
+									<a class="slide-image slide-large slide-loading" draggable="false" data-image='content/gallery/558ad75de61584.90716734.jpg'></a>
+									<a class="slide-image slide-thumb slide-loading" draggable="false" data-image='content/gallery/_558ad75de61584.90716734.jpg'></a></div><div class="slide" draggable="false">
+									<a class="slide-image slide-large slide-loading" draggable="false" data-image='content/gallery/555b324ebb2ff1.75076889.jpg'></a>
+									<a class="slide-image slide-thumb slide-loading" draggable="false" data-image='content/gallery/_555b324ebb2ff1.75076889.jpg'></a></div><div class="slide" draggable="false">
+									<a class="slide-image slide-large slide-loading" draggable="false" data-image='content/gallery/555b3259a14a19.76788290.jpg'></a>
+									<a class="slide-image slide-thumb slide-loading" draggable="false" data-image='content/gallery/_555b3259a14a19.76788290.jpg'></a></div><div class="slide" draggable="false">
+									<a class="slide-image slide-large slide-loading" draggable="false" data-image='content/gallery/555b32636d0b59.93822364.jpg'></a>
+									<a class="slide-image slide-thumb slide-loading" draggable="false" data-image='content/gallery/_555b32636d0b59.93822364.jpg'></a></div></div></div><div class="pips"></div></div></div>
+
+						<div class="slideshow-content">
+
+							<div class="content">
+
+								<div class="cms_1"><h1>Beauty</h1>
+
+<p><strong>We offer a wide range of beauty and holistic treatments. Please call the salon for further details.</strong></p>
+
+<table cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<th colspan="1">
+			<h2>Ear Piercing</h2>
+			</th>
+		</tr>
+		<tr>
+			<td colspan="1">
+			<p>The system we use is fully endorsed by the British Council. The earrings are sterilised and anti-allergic for your protection, which ensures trouble free enjoyment of your newly pierced ears. The price includes the piercing, a choice of earring and an after-care cleansing lotion to take home.<br />
+			&nbsp;</p>
+
+			<p>&pound;32</p>
+
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</section>
+
+<footer class="main-et1d">
+
+	<div class="footer-content">
+
+		<div class="offset col_1">
+
+			<div class="footer_panel panel_101"><div class="content-bgd">&nbsp;</div>
+
+<div class="left">
+<p>&copy; 2020 Oliver Joseph Hairdressing</p>
+
+<p><a href="http://www.webglu.co.uk/" target="_blank">Website by Webglu</a> <img src="../images/webglu-logo.png" /></p>
+</div>
+
+<div class="right">
+<p><a href="../terms-use/index.html">Terms of use</a> | <a href="../privacy-cookie-policy/index.html">Privacy &amp; cookie Policy</a> | <a href="../site-map/index.html">Site map</a></p>
+
+<p><a href="https://www.facebook.com/pages/Oliver-Joseph/1615539395334924" target="_blank"><img src="../images/facebook-icon-footer.png" /></a></p>
+</div>
+</div>
+		</div>
+
+	</div>
+	
+	<div class="footer-copyright">
+
+		<div class="offset">
+
+			<p>Copyright Oliver Joseph Hairdressing 2021 <strong></strong></p>
+			<p>Website by Webglu <img class="webglu" src="../images/webglu-logo.png" alt="Webglu Ltd" /></p>
+
+		</div>
+
+	</div>
+
+</footer></div>
+
+	</body>
+
+
+<!-- Mirrored from www.oliverjosephhairdressing.co.uk/beauty/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Jul 2021 19:11:57 GMT -->
+</html>
