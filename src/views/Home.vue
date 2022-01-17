@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="is-fullwidth">
     <Carousel :images="images" />
     <div class="mt-3 columns px-5 is-marginless-mobile is-paddingless-mobile">
       <div class="column">

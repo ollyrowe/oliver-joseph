@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="is-fullwidth">
     <Carousel :images="images" />
     <div class="px-5 pb-4">
       <div

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="is-fullwidth">
     <div
       class="has-background-white px-3 pb-3 mx-5 is-paddingless-mobile is-marginless-mobile"
     >

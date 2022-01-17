@@ -108,6 +108,10 @@ $tabs-toggle-link-border-width: 0;
 @import "~buefy/src/scss/buefy";
 
 // Custom Helpers
+.is-fullwidth {
+  width: 100% !important;
+}
+
 @media screen and (max-width: calc(#{$tablet} - 1px)) {
   .is-marginless-mobile {
     margin: 0 !important;
