@@ -133,8 +133,12 @@ export default {
         {
           filename: "home/home-image3.jpg",
           caption:
-            "Olaplex, Moroccan oil, Tigi, and Color Wow products are available to purchase from the salon"
-        }
+            "Olaplex, Moroccan oil, Color Wow and Tigi products are available to purchase from the salon"
+        },
+        {
+          filename: "home/home-image4.jpg"
+        },
+        { filename: "home/home-image5.jpg" }
       ]
     };
   }

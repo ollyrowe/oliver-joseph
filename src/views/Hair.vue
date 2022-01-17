@@ -49,6 +49,12 @@ export default {
         },
         {
           filename: "hair/hair-image2.jpg"
+        },
+        {
+          filename: "hair/hair-image3.jpg"
+        },
+        {
+          filename: "hair/hair-image4.jpg"
         }
       ],
       columns: {
