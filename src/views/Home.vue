@@ -52,28 +52,28 @@
     </div>
     <div class="columns mb-5 px-5 is-marginless-mobile is-paddingless-mobile">
       <div class="column p-5">
-        <a href="/hair">
+        <router-link to="/hair">
           <b-image
             :src="require('@/assets/thumbs/oliver-joseph-hair-thumb.png')"
             alt="Oliver Joseph Hair"
           />
-        </a>
+        </router-link>
       </div>
       <div class="column p-5">
-        <a href="/ear-piercing">
+        <router-link to="/ear-piercing">
           <b-image
             :src="require('@/assets/thumbs/oliver-joseph-piercing-thumb.png')"
             alt="Oliver Joseph Beauty"
           />
-        </a>
+        </router-link>
       </div>
       <div class="column p-5">
-        <a href="/wedding">
+        <router-link to="/wedding">
           <b-image
             :src="require('@/assets/thumbs/oliver-joseph-wedding-thumb.jpg')"
             alt="Oliver Joseph Wedding"
           />
-        </a>
+        </router-link>
       </div>
     </div>
     <div>
