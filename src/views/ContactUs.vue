@@ -17,7 +17,8 @@
               class="card location-card is-flex has-background-white is-align-items-center mr-5 p-0 is-marginless-mobile"
             >
               <i class="mdi mdi-map-marker mdi-48px p-5 m-2" />
-              <div class="is-flex-grow-1 py-5">
+              <div class="is-flex-grow-1 py-5 pr-5">
+                <div class="subtitle m-2">Oliver Joseph</div>
                 <div class="subtitle m-2">68 Spencer Drive</div>
                 <div class="subtitle m-2">Midsomer Norton</div>
                 <div class="subtitle m-2">Bath</div>
