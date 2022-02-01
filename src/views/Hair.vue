@@ -45,16 +45,17 @@ export default {
     return {
       images: [
         {
-          filename: "hair/hair-image1.jpg"
+          filename: "hair/hair-image1.jpg",
+          caption: "Welcome to the new salon..."
         },
         {
-          filename: "hair/hair-image2.jpg"
+          filename: "hair/hair-image2.jpg",
+          caption: "We offer an extensive range of cutting & technical services"
         },
         {
-          filename: "hair/hair-image3.jpg"
-        },
-        {
-          filename: "hair/hair-image4.jpg"
+          filename: "hair/hair-image3.jpg",
+          caption:
+            "To make an appointment, please call or leave a message on 07936 142317"
         }
       ],
       columns: {
