@@ -4,13 +4,14 @@
     <div class="mt-3 columns px-5 is-marginless-mobile is-paddingless-mobile">
       <div class="column">
         <b-message
-          title="New for 2022 - We're moving!"
+          title="New for 2022 - We've Moved!"
           :closable="false"
           type="is-grey-dark"
         >
           <p>
-            As from 18th January 2022, we are moving to a new location in
-            Midsomer Norton.
+            We have moved to a new location in Midsomer Norton which is within
+            easy access from the Norton-Radstock Greenway. Please see contact
+            page for further details.
           </p>
         </b-message>
         <b-message title="About Us" :closable="false" type="is-grey-dark">
@@ -35,7 +36,7 @@
         >
           <p>
             Appointments can be made by leaving a voicemail or text message on
-            07936142317. We will return your message within 24 hours.
+            07936 142317. We will return your message within 24 hours.
           </p>
           <br />
           <p>
@@ -127,18 +128,26 @@ export default {
       images: [
         {
           filename: "home/home-image1.jpg",
-          caption: "As from 18th January 2022, we are moving to a new location"
+          caption: "We have moved to a new location in Midsomer Norton"
         },
-        { filename: "home/home-image2.jpg" },
+        {
+          filename: "home/home-image2.jpg",
+          caption: "Welcome to the new salon..."
+        },
         {
           filename: "home/home-image3.jpg",
           caption:
-            "Olaplex, Moroccan oil, Color Wow & Tigi products are available to purchase from the salon"
+            "We stock Olaplex, Moroccan oil, Color Wow & Tigi products..."
         },
         {
-          filename: "home/home-image4.jpg"
+          filename: "home/home-image4.jpg",
+          caption: "We offer an extensive range of cutting & technical services"
         },
-        { filename: "home/home-image5.jpg" }
+        {
+          filename: "home/home-image5.jpg",
+          caption:
+            "To make an appointment, please call or leave a message on 07936 142317"
+        }
       ]
     };
   }
