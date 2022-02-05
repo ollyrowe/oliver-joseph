@@ -103,6 +103,12 @@ $tabs-toggle-link-active-border-color: $grey-darkest;
 
 $tabs-toggle-link-border-width: 0;
 
+// Text selection
+::selection {
+  background: $primary;
+  color: #ffffff;
+}
+
 // Import Bulma and Buefy styles
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
