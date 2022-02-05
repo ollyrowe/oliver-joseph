@@ -52,7 +52,7 @@
       </div>
     </div>
     <div class="columns mb-5 px-5 is-marginless-mobile is-paddingless-mobile">
-      <div class="column p-5">
+      <div class="column thumb p-5">
         <router-link to="/hair">
           <b-image
             :src="require('@/assets/thumbs/oliver-joseph-hair-thumb.png')"
@@ -60,7 +60,7 @@
           />
         </router-link>
       </div>
-      <div class="column p-5">
+      <div class="column thumb p-5">
         <router-link to="/ear-piercing">
           <b-image
             :src="require('@/assets/thumbs/oliver-joseph-piercing-thumb.png')"
@@ -68,7 +68,7 @@
           />
         </router-link>
       </div>
-      <div class="column p-5">
+      <div class="column thumb p-5">
         <router-link to="/wedding">
           <b-image
             :src="require('@/assets/thumbs/oliver-joseph-wedding-thumb.jpg')"
@@ -153,3 +153,10 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.thumb {
+  width: max-content;
+  margin: auto;
+}
+</style>
