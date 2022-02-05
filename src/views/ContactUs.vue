@@ -11,12 +11,10 @@
     <div class="px-5">
       <div class="px-5 pb-4 is-paddingless-mobile">
         <div class="title is-size-4 my-4">Contact Us</div>
-        <div class="is-flex is-flex-wrap-wrap is-paddingless-mobile">
-          <div class="is-flex mb-4 is-flex-grow-1 is-fullwidth-mobile">
-            <div
-              class="card location-card is-flex has-background-white is-align-items-center mr-5 p-0 is-marginless-mobile"
-            >
-              <i class="mdi mdi-map-marker mdi-48px p-5 m-2" />
+        <div class="card-container">
+          <div class="is-flex mb-4 is-flex-grow-1">
+            <div class="location-card card is-align-items-center mr-5 p-0">
+              <i class="mdi mdi-map-marker mdi-48px p-5" />
               <div class="is-flex-grow-1 py-5 pr-5">
                 <div class="subtitle m-2">Oliver Joseph</div>
                 <div class="subtitle m-2">68 Spencer Drive</div>
@@ -27,11 +25,11 @@
               <img
                 :src="require('@/assets/images/misc/scissors-in-branches.jpg')"
                 alt="Scissors in branches"
-                class="location-image is-hidden-mobile"
+                class="location-image"
               />
             </div>
           </div>
-          <OpeningTimes class="is-flex-grow-1 mb-4 is-marginless-mobile" />
+          <OpeningTimes class="opening-times is-flex-grow-1 mb-4" />
         </div>
         <div class="is-flex px-3 is-flex-wrap-wrap is-paddingless-mobile">
           <ContactCard
@@ -75,11 +73,39 @@ export default {
 </script>
 
 <style scoped>
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .location-image {
-  height: 270px;
+  height: 265px;
 }
 
 .location-card {
+  display: flex;
   width: 100%;
+  background-color: white;
+}
+
+@media only screen and (max-width: 932px) {
+  .card-container {
+    flex-direction: column;
+  }
+
+  .location-card {
+    margin: 0 !important;
+  }
+
+  .opening-times {
+    width: auto;
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 584px) {
+  .location-image {
+    display: none;
+  }
 }
 </style>
