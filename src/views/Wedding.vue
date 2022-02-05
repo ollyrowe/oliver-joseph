@@ -38,7 +38,7 @@
           </div>
         </div>
         <div
-          class="is-flex is-flex-direction-column-mobile is-justify-content-space-between m-4 my-6 is-marginless-mobile"
+          class="is-flex is-flex-wrap-wrap is-justify-content-space-between m-4"
         >
           <img
             src="../assets/images/wedding/oliver-joseph-wedding-hair1.jpg"
@@ -116,11 +116,11 @@ export default {
 
 img {
   height: 185px;
+  margin: 0.5rem auto;
 
   @media screen and (max-width: $tablet) {
     align-self: center;
     width: max-content;
-    margin: 0.5rem;
     object-fit: cover;
   }
 }
