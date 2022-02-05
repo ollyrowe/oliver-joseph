@@ -55,7 +55,7 @@ export default {
         {
           filename: "hair/hair-image3.jpg",
           caption:
-            "To make an appointment, please call or leave a message on 07936 142317"
+            "To make an appointment, please call or leave a message on 07936142317"
         }
       ],
       columns: {
