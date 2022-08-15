@@ -100,41 +100,37 @@ export default {
         cuttingStyling: [
           {
             service: "Cut and Blow Dry",
-            price: "£40"
+            price: "£42"
           },
           {
             service: "Re-style / Long hair",
-            price: "from £42"
+            price: "from £44"
           },
           {
             service: "Men's Cut and Blow Dry",
-            price: "£20"
+            price: "£22"
           },
           {
             service: "Blow Dry",
-            price: "from £23"
+            price: "from £25"
           },
           {
             service: "Children",
-            price: "from £9"
+            price: "from £12"
           }
         ],
         colour: [
           {
             service: "Semi Glossing",
-            price: "£39"
+            price: "£45"
           },
           {
             service: "Tint Regrowth",
-            price: "£39"
+            price: "£45"
           },
           {
             service: "Full Head Colour",
-            price: "from £40"
-          },
-          {
-            service: "Balayage / Ombré",
-            price: "price on visual consultation"
+            price: "from £45"
           },
           {
             service: "Colour Correction",
@@ -148,15 +144,19 @@ export default {
         highLightingLowLighting: [
           {
             service: "T Section (1/4 Head)",
-            price: "from £40"
+            price: "from £45"
           },
           {
             service: "Half Head Foils",
-            price: "from £50"
+            price: "from £55"
           },
           {
             service: "Full Head Foils",
-            price: "from £66"
+            price: "from £70"
+          },
+          {
+            service: "Balayage / Ombré",
+            price: "price on visual consultation"
           }
         ],
         otherServices: [

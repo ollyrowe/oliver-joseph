@@ -58,7 +58,7 @@ export default {
       earPiercingData: [
         {
           service: "Ear Piercing (Ear-lobe)",
-          price: "£35"
+          price: "£36"
         }
       ]
     };
