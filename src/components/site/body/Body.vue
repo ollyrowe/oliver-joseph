@@ -10,19 +10,6 @@
 
 <script>
 export default {
-  name: "Body",
-  methods: {
-    displayAlert() {
-      this.$buefy.dialog.alert({
-        title: "New for 2022 - We've Moved!",
-        message: "We have moved to a new location in Midsomer Norton...",
-        confirmText: "OK",
-        canCancel: ["outside", "escape"]
-      });
-    }
-  },
-  mounted() {
-    this.displayAlert();
-  }
+  name: "Body"
 };
 </script>
