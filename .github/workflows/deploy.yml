@@ -14,7 +14,7 @@ jobs:
 
       - name: Install & Build Application
         run: |
-          npm install
+          npm install --legacy-peer-deps
           npm run build
 
       - name: Configure Custom Domain & 404 Fallback File
