@@ -7,12 +7,8 @@
     <div class="list-container has-text-light pt-0 p-1 pb-3">
       <p>Price includes:</p>
       <ul class="px-4">
-        <li class="list-item">
-          One pair of earrings
-        </li>
-        <li class="list-item">
-          Aftercare lotion &#38; advice leaflet
-        </li>
+        <li class="list-item">One pair of earrings</li>
+        <li class="list-item">Aftercare lotion &#38; advice leaflet</li>
       </ul>
     </div>
   </article>
@@ -20,7 +16,7 @@
 
 <script>
 export default {
-  name: "EarPiercingCard"
+  name: "EarPiercingCard",
 };
 </script>
 

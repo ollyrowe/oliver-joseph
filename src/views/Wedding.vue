@@ -72,26 +72,26 @@ import Carousel from "@/components/data/Carousel.vue";
 export default {
   name: "Wedding",
   components: {
-    Carousel
+    Carousel,
   },
   data() {
     return {
       images: [
         {
-          filename: "wedding/wedding-image1.jpg"
+          filename: "wedding/wedding-image1.jpg",
         },
         {
-          filename: "wedding/wedding-image2.jpg"
+          filename: "wedding/wedding-image2.jpg",
         },
         {
-          filename: "wedding/wedding-image3.jpg"
+          filename: "wedding/wedding-image3.jpg",
         },
         {
-          filename: "wedding/wedding-image4.jpg"
-        }
-      ]
+          filename: "wedding/wedding-image4.jpg",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 

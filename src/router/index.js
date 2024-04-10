@@ -13,32 +13,32 @@ export const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home
+    component: Home,
   },
   {
     path: "/hair",
     name: "Hair",
-    component: Hair
+    component: Hair,
   },
   {
     path: "/ear-piercing",
     name: "Ear Piercing",
-    component: EarPiercing
+    component: EarPiercing,
   },
   {
     path: "/wedding",
     name: "Wedding",
-    component: Wedding
+    component: Wedding,
   },
   {
     path: "/contact-us",
     name: "Contact Us",
-    component: ContactUs
+    component: ContactUs,
   },
   {
     path: "/:catchAll(.*)",
-    redirect: "/"
-  }
+    redirect: "/",
+  },
 ];
 
 const router = new VueRouter({
@@ -50,7 +50,7 @@ const router = new VueRouter({
     } else {
       return { x: 0, y: 0 };
     }
-  }
+  },
 });
 
 export default router;

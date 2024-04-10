@@ -11,7 +11,7 @@ export default {
   name: "Logo",
   data() {
     return {
-      screenWidth: window.innerWidth
+      screenWidth: window.innerWidth,
     };
   },
   computed: {
@@ -22,12 +22,12 @@ export default {
     },
     isMobile() {
       return this.screenWidth <= 768;
-    }
+    },
   },
   methods: {
     onResize() {
       this.screenWidth = window.innerWidth;
-    }
+    },
   },
   mounted() {
     this.$nextTick(() => {
@@ -36,6 +36,6 @@ export default {
   },
   beforeUnmount() {
     window.removeEventListener("resize", this.onResize);
-  }
+  },
 };
 </script>

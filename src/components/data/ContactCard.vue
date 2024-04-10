@@ -24,8 +24,8 @@ export default {
     title: String,
     content: String,
     link: String,
-    icon: String
-  }
+    icon: String,
+  },
 };
 </script>
 

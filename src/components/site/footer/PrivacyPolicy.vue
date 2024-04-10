@@ -49,7 +49,7 @@ export default {
   name: "PrivacyPolicy",
   props: {
     open: Boolean,
-    onClose: Function
-  }
+    onClose: Function,
+  },
 };
 </script>

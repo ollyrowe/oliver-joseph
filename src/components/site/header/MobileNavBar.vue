@@ -40,10 +40,10 @@ export default {
   name: "MobileNavBar",
   props: {
     routes: Array,
-    currentRoute: Object
+    currentRoute: Object,
   },
   data: () => ({
-    displayNavMenu: false
+    displayNavMenu: false,
   }),
   methods: {
     toggleNavMenu() {
@@ -56,8 +56,8 @@ export default {
       this.closeNavMenu();
 
       this.$router.push(path);
-    }
-  }
+    },
+  },
 };
 </script>
 

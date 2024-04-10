@@ -24,8 +24,8 @@ export default {
     data: Array,
     showColumns: {
       type: Boolean,
-      default: true
-    }
-  }
+      default: true,
+    },
+  },
 };
 </script>

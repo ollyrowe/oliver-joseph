@@ -23,12 +23,12 @@ export default {
   name: "NavBar",
   data: () => ({
     // Filter for routes that have a component
-    routes: routes.filter(route => route.component)
+    routes: routes.filter((route) => route.component),
   }),
   computed: {
     currentRoute() {
       return this.$route;
-    }
-  }
+    },
+  },
 };
 </script>

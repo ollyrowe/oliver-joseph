@@ -119,36 +119,37 @@ export default {
   components: {
     Carousel,
     OpeningTimes,
-    EarPiercingCard
+    EarPiercingCard,
   },
   data() {
     return {
       images: [
         {
           filename: "home/home-image1.jpg",
-          caption: "We have moved to a new location in Midsomer Norton"
+          caption: "We have moved to a new location in Midsomer Norton",
         },
         {
           filename: "home/home-image2.jpg",
-          caption: "Welcome to the new salon..."
+          caption: "Welcome to the new salon...",
         },
         {
           filename: "home/home-image3.jpg",
           caption:
-            "We stock Olaplex, Moroccan oil, Color Wow & Tigi products..."
+            "We stock Olaplex, Moroccan oil, Color Wow & Tigi products...",
         },
         {
           filename: "home/home-image4.jpg",
-          caption: "We offer an extensive range of cutting & technical services"
+          caption:
+            "We offer an extensive range of cutting & technical services",
         },
         {
           filename: "home/home-image5.jpg",
           caption:
-            "To make an appointment, please call or leave a message on 07936142317"
-        }
-      ]
+            "To make an appointment, please call or leave a message on 07936142317",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 

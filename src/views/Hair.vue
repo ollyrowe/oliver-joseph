@@ -39,150 +39,151 @@ export default {
   components: {
     Carousel,
     Table,
-    InfoMessage
+    InfoMessage,
   },
   data() {
     return {
       images: [
         {
           filename: "hair/hair-image1.jpg",
-          caption: "Welcome to the new salon..."
+          caption: "Welcome to the new salon...",
         },
         {
           filename: "hair/hair-image2.jpg",
-          caption: "We offer an extensive range of cutting & technical services"
+          caption:
+            "We offer an extensive range of cutting & technical services",
         },
         {
           filename: "hair/hair-image3.jpg",
           caption:
-            "To make an appointment, please call or leave a message on 07936142317"
-        }
+            "To make an appointment, please call or leave a message on 07936142317",
+        },
       ],
       columns: {
         cuttingStyling: [
           {
-            field: "service"
+            field: "service",
           },
           {
             field: "price",
-            label: "Price"
-          }
+            label: "Price",
+          },
         ],
         colour: [
           {
-            field: "service"
+            field: "service",
           },
           {
             field: "price",
-            label: "Price"
-          }
+            label: "Price",
+          },
         ],
         highLightingLowLighting: [
           {
-            field: "service"
+            field: "service",
           },
           {
             field: "price",
-            label: "Price"
-          }
+            label: "Price",
+          },
         ],
         otherServices: [
           {
-            field: "service"
+            field: "service",
           },
           {
             field: "price",
-            label: "Price"
-          }
-        ]
+            label: "Price",
+          },
+        ],
       },
       prices: {
         cuttingStyling: [
           {
             service: "Cut and Blow Dry",
-            price: "£42"
+            price: "£42",
           },
           {
             service: "Re-style / Long hair",
-            price: "from £44"
+            price: "from £44",
           },
           {
             service: "Men's Cut and Blow Dry",
-            price: "£22"
+            price: "£22",
           },
           {
             service: "Blow Dry",
-            price: "from £25"
+            price: "from £25",
           },
           {
             service: "Children",
-            price: "from £12"
-          }
+            price: "from £12",
+          },
         ],
         colour: [
           {
             service: "Semi Glossing",
-            price: "£45"
+            price: "£45",
           },
           {
             service: "Tint Regrowth",
-            price: "£45"
+            price: "£45",
           },
           {
             service: "Full Head Colour",
-            price: "from £45"
+            price: "from £45",
           },
           {
             service: "Colour Correction",
-            price: "price on visual consultation"
+            price: "price on visual consultation",
           },
           {
             service: "Colour Change",
-            price: "price on visual consultation"
-          }
+            price: "price on visual consultation",
+          },
         ],
         highLightingLowLighting: [
           {
             service: "T Section (1/4 Head)",
-            price: "from £45"
+            price: "from £45",
           },
           {
             service: "Half Head Foils",
-            price: "from £55"
+            price: "from £55",
           },
           {
             service: "Full Head Foils",
-            price: "from £70"
+            price: "from £70",
           },
           {
             service: "Balayage / Ombré",
-            price: "price on visual consultation"
-          }
+            price: "price on visual consultation",
+          },
         ],
         otherServices: [
           {
             service: "Permanent Straightening",
-            price: "price on visual consultation"
+            price: "price on visual consultation",
           },
           {
             service: "Perming",
-            price: "price on visual consultation"
+            price: "price on visual consultation",
           },
           {
             service: "Hair up",
-            price: "price on visual consultation"
+            price: "price on visual consultation",
           },
           {
             service: "Hair Treatments (repair, thicken and relax)",
-            price: "from £11"
+            price: "from £11",
           },
           {
             service: "OLAPLEX",
-            price: "from £15"
-          }
-        ]
-      }
+            price: "from £15",
+          },
+        ],
+      },
     };
-  }
+  },
 };
 </script>

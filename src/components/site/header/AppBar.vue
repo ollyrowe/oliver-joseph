@@ -40,6 +40,6 @@ import Logo from "./Logo.vue";
 
 export default {
   name: "AppBar",
-  components: { Logo }
+  components: { Logo },
 };
 </script>

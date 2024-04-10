@@ -21,8 +21,8 @@ export default {
   props: {
     icon: {
       type: String,
-      default: "mdi-information"
-    }
-  }
+      default: "mdi-information",
+    },
+  },
 };
 </script>

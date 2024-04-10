@@ -67,8 +67,8 @@ export default {
   name: "ContactUs",
   components: {
     ContactCard,
-    OpeningTimes
-  }
+    OpeningTimes,
+  },
 };
 </script>
 

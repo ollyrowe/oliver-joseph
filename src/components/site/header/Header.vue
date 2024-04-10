@@ -13,7 +13,7 @@ export default {
   name: "Header",
   components: {
     AppBar,
-    NavBar
-  }
+    NavBar,
+  },
 };
 </script>

@@ -41,13 +41,13 @@ export default {
   data() {
     return {
       displayTermsOfUse: false,
-      displayPrivacyPolicy: false
+      displayPrivacyPolicy: false,
     };
   },
   computed: {
     date: () => {
       return new Date().getFullYear();
-    }
+    },
   },
   methods: {
     openTermsOfUse() {
@@ -61,7 +61,7 @@ export default {
     },
     closePrivacyPolicy() {
       this.displayPrivacyPolicy = false;
-    }
-  }
+    },
+  },
 };
 </script>

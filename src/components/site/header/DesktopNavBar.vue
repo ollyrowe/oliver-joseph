@@ -6,7 +6,7 @@
           v-for="(route, index) in routes"
           :key="index"
           :class="{
-            'is-active': currentRoute.name === route.name
+            'is-active': currentRoute.name === route.name,
           }"
         >
           <router-link :to="route.path" class="is-radiusless">
@@ -23,7 +23,7 @@ export default {
   name: "DesktopNavBar",
   props: {
     routes: Array,
-    currentRoute: Object
-  }
+    currentRoute: Object,
+  },
 };
 </script>

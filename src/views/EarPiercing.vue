@@ -32,7 +32,7 @@ export default {
   components: {
     Carousel,
     Table,
-    InfoMessage
+    InfoMessage,
   },
   data() {
     return {
@@ -40,28 +40,28 @@ export default {
         {
           filename: "beauty/beauty-image1.jpg",
           caption:
-            "We use Caress System 2000 - A World Leading Ear-Piercing System"
+            "We use Caress System 2000 - A World Leading Ear-Piercing System",
         },
         {
           filename: "beauty/beauty-image2.jpg",
-          caption: "The system we use is fully endorsed by the British Council"
-        }
+          caption: "The system we use is fully endorsed by the British Council",
+        },
       ],
       earPiercingColumns: [
         {
-          field: "service"
+          field: "service",
         },
         {
-          field: "price"
-        }
+          field: "price",
+        },
       ],
       earPiercingData: [
         {
           service: "Ear Piercing (Ear-lobe)",
-          price: "£36"
-        }
-      ]
+          price: "£36",
+        },
+      ],
     };
-  }
+  },
 };
 </script>

@@ -129,7 +129,7 @@ export default {
   name: "TermsOfUse",
   props: {
     open: Boolean,
-    onClose: Function
-  }
+    onClose: Function,
+  },
 };
 </script>

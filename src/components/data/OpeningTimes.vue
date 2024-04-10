@@ -34,7 +34,7 @@
 
 <script>
 export default {
-  name: "OpeningTimes"
+  name: "OpeningTimes",
 };
 </script>
 

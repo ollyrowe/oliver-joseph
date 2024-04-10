@@ -10,7 +10,7 @@
         />
         <div
           v-if="image.caption"
-          class="is-flex is-flex-direction-column is-overlay is-text-align-bottom "
+          class="is-flex is-flex-direction-column is-overlay is-text-align-bottom"
         >
           <div class="is-flex-grow-1" />
           <div class="subtitle overlay-text has-text-light is-size-5">
@@ -28,9 +28,9 @@ export default {
   props: {
     images: {
       filename: String,
-      caption: String
-    }
-  }
+      caption: String,
+    },
+  },
 };
 </script>
 
