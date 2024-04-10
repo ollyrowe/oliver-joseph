@@ -101,37 +101,37 @@ export default {
         cuttingStyling: [
           {
             service: "Cut and Blow Dry",
-            price: "£42",
+            price: "-",
           },
           {
             service: "Re-style / Long hair",
-            price: "from £44",
+            price: "-",
           },
           {
             service: "Men's Cut and Blow Dry",
-            price: "£22",
+            price: "-",
           },
           {
             service: "Blow Dry",
-            price: "from £25",
+            price: "-",
           },
           {
             service: "Children",
-            price: "from £12",
+            price: "-",
           },
         ],
         colour: [
           {
             service: "Semi Glossing",
-            price: "£45",
+            price: "-",
           },
           {
             service: "Tint Regrowth",
-            price: "£45",
+            price: "-",
           },
           {
             service: "Full Head Colour",
-            price: "from £45",
+            price: "-",
           },
           {
             service: "Colour Correction",
@@ -145,15 +145,15 @@ export default {
         highLightingLowLighting: [
           {
             service: "T Section (1/4 Head)",
-            price: "from £45",
+            price: "-",
           },
           {
             service: "Half Head Foils",
-            price: "from £55",
+            price: "-",
           },
           {
             service: "Full Head Foils",
-            price: "from £70",
+            price: "-",
           },
           {
             service: "Balayage / Ombré",
@@ -175,11 +175,11 @@ export default {
           },
           {
             service: "Hair Treatments (repair, thicken and relax)",
-            price: "from £11",
+            price: "-",
           },
           {
             service: "OLAPLEX",
-            price: "from £15",
+            price: "-",
           },
         ],
       },
