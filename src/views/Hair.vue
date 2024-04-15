@@ -101,37 +101,37 @@ export default {
         cuttingStyling: [
           {
             service: "Cut and Blow Dry",
-            price: "-",
+            price: "£45",
           },
           {
             service: "Re-style / Long hair",
-            price: "-",
+            price: "from £47",
           },
           {
             service: "Men's Cut and Blow Dry",
-            price: "-",
+            price: "£24",
           },
           {
             service: "Blow Dry",
-            price: "-",
+            price: "from £28",
           },
           {
             service: "Children",
-            price: "-",
+            price: "from £12",
           },
         ],
         colour: [
           {
             service: "Semi Glossing",
-            price: "-",
+            price: "£49",
           },
           {
             service: "Tint Regrowth",
-            price: "-",
+            price: "£49",
           },
           {
             service: "Full Head Colour",
-            price: "-",
+            price: "£53",
           },
           {
             service: "Colour Correction",
@@ -145,15 +145,15 @@ export default {
         highLightingLowLighting: [
           {
             service: "T Section (1/4 Head)",
-            price: "-",
+            price: "£53",
           },
           {
             service: "Half Head Foils",
-            price: "-",
+            price: "from £60",
           },
           {
             service: "Full Head Foils",
-            price: "-",
+            price: "from £76",
           },
           {
             service: "Balayage / Ombré",
@@ -171,15 +171,15 @@ export default {
           },
           {
             service: "Hair up",
-            price: "price on visual consultation",
+            price: "from £45",
           },
           {
             service: "Hair Treatments (repair, thicken and relax)",
-            price: "-",
+            price: "from £17",
           },
           {
             service: "OLAPLEX",
-            price: "-",
+            price: "from £17",
           },
         ],
       },
