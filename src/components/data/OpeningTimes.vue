@@ -7,7 +7,7 @@
       class="message-body has-background-dark has-text-light has-text-centered p-2 py-4 pb-5"
     >
       <div class="is-flex px-5">
-        <div class="has-text-left">
+        <div class="has-text-left mr-4">
           <strong>
             Monday<br />
             Tuesday<br />
@@ -21,10 +21,10 @@
           <strong>
             Closed<br />
             9am - 6pm<br />
-            9am - 6pm<br />
-            9am - 6pm<br />
-            9am - 6pm<br />
-            8am - 4.30pm
+            9am - 8pm<br />
+            9am - 5pm<br />
+            9am - 5pm<br />
+            8am - 3pm
           </strong>
         </div>
       </div>
