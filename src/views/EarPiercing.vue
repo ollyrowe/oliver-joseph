@@ -14,8 +14,8 @@
           The system we use is fully endorsed by the British Council. The
           earrings are sterilised and anti-allergenic for your protection, which
           ensures trouble free enjoyment of your newly pierced ears. The price
-          includes the piercing, a choice of earring and an after-care cleansing
-          lotion to take home.
+          includes the piercing, a choice of earrings and an after-care
+          cleansing lotion to take home.
         </InfoMessage>
       </div>
     </div>
