@@ -131,7 +131,7 @@ export default {
         {
           filename: "home/home-image3.jpg",
           caption:
-            "We stock Olaplex, Moroccan oil, Color Wow & Tigi products...",
+            "We stock Olaplex, Moroccanoil, Color Wow, TIGI & L'Oréal products...",
         },
         {
           filename: "home/home-image4.jpg",
