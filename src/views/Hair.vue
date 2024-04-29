@@ -171,7 +171,7 @@ export default {
           },
           {
             service: "Hair up",
-            price: "from £45",
+            price: "from £47",
           },
           {
             service: "Hair Treatments (repair, thicken and relax)",
