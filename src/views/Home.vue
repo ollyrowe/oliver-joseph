@@ -35,7 +35,7 @@
           <br />
           <p>
             New clients, or those who are booking longer services, will require
-            a 50% deposit payable prior to the appointment.
+            a deposit payable prior to the appointment.
           </p>
           <br />
           <p>
