@@ -47,28 +47,28 @@
     </div>
     <div class="columns mb-5 px-5 is-marginless-mobile is-paddingless-mobile">
       <div class="column thumb p-5">
-        <router-link to="/hair">
-          <b-image
-            :src="require('@/assets/thumbs/oliver-joseph-hair-thumb.png')"
-            alt="Oliver Joseph Hair"
-          />
-        </router-link>
+        <Thumbnail
+          :src="require('@/assets/thumbs/oliver-joseph-hair-thumb.png')"
+          link="/hair"
+          caption="Hair"
+          alt="Oliver Joseph Hair"
+        />
       </div>
       <div class="column thumb p-5">
-        <router-link to="/ear-piercing">
-          <b-image
-            :src="require('@/assets/thumbs/oliver-joseph-piercing-thumb.png')"
-            alt="Oliver Joseph Beauty"
-          />
-        </router-link>
+        <Thumbnail
+          :src="require('@/assets/thumbs/oliver-joseph-piercing-thumb.png')"
+          link="/ear-piercing"
+          caption="Ear Piercing"
+          alt="Oliver Joseph Ear Piercing"
+        />
       </div>
       <div class="column thumb p-5">
-        <router-link to="/wedding">
-          <b-image
-            :src="require('@/assets/thumbs/oliver-joseph-wedding-thumb.jpg')"
-            alt="Oliver Joseph Wedding"
-          />
-        </router-link>
+        <Thumbnail
+          :src="require('@/assets/thumbs/oliver-joseph-contact-us-thumb.png')"
+          link="/contact-us"
+          caption="Contact Us"
+          alt="Oliver Joseph Contact Us"
+        />
       </div>
     </div>
     <div>
@@ -109,6 +109,7 @@
 import Carousel from "@/components/data/Carousel.vue";
 import OpeningTimes from "@/components/data/OpeningTimes.vue";
 import EarPiercingCard from "../components/data/EarPiercingCard.vue";
+import Thumbnail from "../components/data/Thumbnail.vue";
 
 export default {
   name: "Home",
@@ -116,6 +117,7 @@ export default {
     Carousel,
     OpeningTimes,
     EarPiercingCard,
+    Thumbnail,
   },
   data() {
     return {

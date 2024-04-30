@@ -4,7 +4,6 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Hair from "../views/Hair.vue";
 import EarPiercing from "../views/EarPiercing.vue";
-import Wedding from "../views/Wedding.vue";
 import ContactUs from "../views/ContactUs.vue";
 
 Vue.use(VueRouter);
@@ -24,11 +23,6 @@ export const routes = [
     path: "/ear-piercing",
     name: "Ear Piercing",
     component: EarPiercing,
-  },
-  {
-    path: "/wedding",
-    name: "Wedding",
-    component: Wedding,
   },
   {
     path: "/contact-us",
