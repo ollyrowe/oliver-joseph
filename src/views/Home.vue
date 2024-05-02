@@ -133,7 +133,7 @@ export default {
         {
           filename: "home/home-image3.jpg",
           caption:
-            "We stock Olaplex, Moroccanoil, Color Wow, TIGI & L'Oréal products...",
+            "We stock Olaplex, Moroccanoil, Color Wow & L'Oréal Professional products...",
         },
         {
           filename: "home/home-image4.jpg",
