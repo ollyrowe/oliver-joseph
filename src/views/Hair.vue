@@ -101,37 +101,37 @@ export default {
         cuttingStyling: [
           {
             service: "Cut and Blow Dry",
-            price: "£45",
+            price: "-",
           },
           {
             service: "Re-style / Long hair",
-            price: "from £47",
+            price: "-",
           },
           {
             service: "Men's Cut and Blow Dry",
-            price: "£24",
+            price: "-",
           },
           {
             service: "Blow Dry",
-            price: "from £28",
+            price: "-",
           },
           {
             service: "Children",
-            price: "from £12",
+            price: "-",
           },
         ],
         colour: [
           {
             service: "Semi Glossing",
-            price: "£49",
+            price: "-",
           },
           {
             service: "Tint Regrowth",
-            price: "£49",
+            price: "-",
           },
           {
             service: "Full Head Colour",
-            price: "£53",
+            price: "-",
           },
           {
             service: "Colour Correction",
@@ -145,15 +145,15 @@ export default {
         highLightingLowLighting: [
           {
             service: "T Section (1/4 Head)",
-            price: "£53",
+            price: "-",
           },
           {
             service: "Half Head Foils",
-            price: "from £60",
+            price: "-",
           },
           {
             service: "Full Head Foils",
-            price: "from £76",
+            price: "-",
           },
           {
             service: "Balayage / Ombré",
@@ -171,15 +171,15 @@ export default {
           },
           {
             service: "Hair up",
-            price: "from £47",
+            price: "-",
           },
           {
             service: "Hair Treatments (repair, thicken and relax)",
-            price: "from £17",
+            price: "-",
           },
           {
             service: "OLAPLEX",
-            price: "from £17",
+            price: "-",
           },
         ],
       },
