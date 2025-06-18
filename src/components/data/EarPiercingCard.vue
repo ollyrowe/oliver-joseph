@@ -2,7 +2,7 @@
   <article class="message container p-2">
     <div class="message-header header">
       <p class="ear-piercing-text">Ear Piercing</p>
-      <!-- <p class="price-text">£38</p> -->
+      <p class="price-text">£45</p>
     </div>
     <div class="list-container has-text-light pt-0 p-1 pb-3">
       <p>Price includes:</p>

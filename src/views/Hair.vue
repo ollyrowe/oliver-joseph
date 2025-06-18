@@ -101,37 +101,37 @@ export default {
         cuttingStyling: [
           {
             service: "Cut and Blow Dry",
-            price: "-",
+            price: "£47",
           },
           {
             service: "Re-style / Long hair",
-            price: "-",
+            price: "£50",
           },
           {
             service: "Men's Cut and Blow Dry",
-            price: "-",
+            price: "£27",
           },
           {
             service: "Blow Dry",
-            price: "-",
+            price: "from £30",
           },
           {
-            service: "Children",
-            price: "-",
+            service: "Hair Up",
+            price: "from £48",
           },
         ],
         colour: [
           {
             service: "Semi Glossing",
-            price: "-",
+            price: "£52",
           },
           {
             service: "Tint Regrowth",
-            price: "-",
+            price: "£52",
           },
           {
             service: "Full Head Colour",
-            price: "-",
+            price: "from £55",
           },
           {
             service: "Colour Correction",
@@ -145,15 +145,15 @@ export default {
         highLightingLowLighting: [
           {
             service: "T Section (1/4 Head)",
-            price: "-",
+            price: "£55",
           },
           {
             service: "Half Head Foils",
-            price: "-",
+            price: "from £63",
           },
           {
             service: "Full Head Foils",
-            price: "-",
+            price: "from £80",
           },
           {
             service: "Balayage / Ombré",
@@ -168,18 +168,6 @@ export default {
           {
             service: "Perming",
             price: "price on visual consultation",
-          },
-          {
-            service: "Hair up",
-            price: "-",
-          },
-          {
-            service: "Hair Treatments (repair, thicken and relax)",
-            price: "-",
-          },
-          {
-            service: "OLAPLEX",
-            price: "-",
           },
         ],
       },
