@@ -121,7 +121,7 @@ export default {
         },
         {
           filename: "home/home-image2.jpg",
-          caption: "Welcome to the new salon...",
+          caption: "Welcome to the salon...",
         },
         {
           filename: "home/home-image3.jpg",

@@ -46,7 +46,7 @@ export default {
       images: [
         {
           filename: "hair/hair-image1.jpg",
-          caption: "Welcome to the new salon...",
+          caption: "Welcome to the salon...",
         },
         {
           filename: "hair/hair-image2.jpg",
