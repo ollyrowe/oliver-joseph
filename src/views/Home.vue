@@ -3,13 +3,6 @@
     <Carousel :images="images" />
     <div class="mt-3 columns px-5 is-marginless-mobile is-paddingless-mobile">
       <div class="column">
-        <b-message title="We've Moved!" :closable="false" type="is-grey-dark">
-          <p>
-            We have moved to a new location in Midsomer Norton which is within
-            easy access from the Norton-Radstock Greenway. Please see contact
-            page for further details.
-          </p>
-        </b-message>
         <b-message title="About Us" :closable="false" type="is-grey-dark">
           <p>
             Since we opened our doors in 2006, we have taken pride in offering
