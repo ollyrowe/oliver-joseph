@@ -6,22 +6,22 @@
         <div class="title is-size-4 my-4">Hair Services & Prices</div>
         <Table
           title="Cutting & Styling"
-          :columns="columns.cuttingStyling"
+          :columns="columns"
           :data="prices.cuttingStyling"
         />
-        <Table title="Colour" :columns="columns.colour" :data="prices.colour" />
+        <Table title="Colour" :columns="columns" :data="prices.colour" />
         <InfoMessage class="mb-5 mx-4">
           A skin test is required 48 hours prior to all colour treatments listed
           above
         </InfoMessage>
         <Table
           title="High Lighting & Low Lighting"
-          :columns="columns.highLightingLowLighting"
+          :columns="columns"
           :data="prices.highLightingLowLighting"
         />
         <Table
           title="Other Services"
-          :columns="columns.otherServices"
+          :columns="columns"
           :data="prices.otherServices"
         />
       </div>
@@ -59,44 +59,16 @@ export default {
             "To make an appointment, please call or leave a message on 07936142317",
         },
       ],
-      columns: {
-        cuttingStyling: [
-          {
-            field: "service",
-          },
-          {
-            field: "price",
-            label: "Price",
-          },
-        ],
-        colour: [
-          {
-            field: "service",
-          },
-          {
-            field: "price",
-            label: "Price",
-          },
-        ],
-        highLightingLowLighting: [
-          {
-            field: "service",
-          },
-          {
-            field: "price",
-            label: "Price",
-          },
-        ],
-        otherServices: [
-          {
-            field: "service",
-          },
-          {
-            field: "price",
-            label: "Price",
-          },
-        ],
-      },
+      columns: [
+        {
+          field: "service",
+          label: "Service",
+        },
+        {
+          field: "price",
+          label: "Price",
+        },
+      ],
       prices: {
         cuttingStyling: [
           {
